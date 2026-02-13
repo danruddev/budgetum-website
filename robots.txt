@@ -1,0 +1,5 @@
+User-Agent: *
+Allow: /
+
+Host: https://budgetum.app
+Sitemap: https://budgetum.app/sitemap.xml
