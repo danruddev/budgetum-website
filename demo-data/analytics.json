@@ -1,0 +1,5545 @@
+{
+  "version": 1,
+  "generatedAt": "2026-07-06T00:00:00.000Z",
+  "source": {
+    "app": "Budgetum",
+    "export": "analytics-demo",
+    "transactionFile": "transactions.csv"
+  },
+  "transactionExport": {
+    "startDate": "2025-01-01",
+    "endDate": "2026-06-30",
+    "rowCount": 1044
+  },
+  "settings": {
+    "currency": "USD",
+    "locale": "en_US",
+    "numberFormat": "en_US",
+    "hideCurrencySymbol": false,
+    "primaryColor": "#2563eb"
+  },
+  "accountGroups": [
+    {
+      "id": 1,
+      "name": "Bank Accounts",
+      "position": 0,
+      "isExpanded": true,
+      "isArchived": false,
+      "icon": "account_balance"
+    },
+    {
+      "id": 2,
+      "name": "Cash",
+      "position": 1,
+      "isExpanded": true,
+      "isArchived": false,
+      "icon": "account_balance_wallet"
+    },
+    {
+      "id": 3,
+      "name": "Credit Cards",
+      "position": 2,
+      "isExpanded": true,
+      "isArchived": false,
+      "icon": "credit_card"
+    },
+    {
+      "id": 4,
+      "name": "Investments",
+      "position": 3,
+      "isExpanded": true,
+      "isArchived": false,
+      "icon": "trending_up"
+    },
+    {
+      "id": 5,
+      "name": "Loans",
+      "position": 4,
+      "isExpanded": true,
+      "isArchived": false,
+      "icon": "directions_car"
+    }
+  ],
+  "accounts": [
+    {
+      "id": 1,
+      "name": "Chase Checking",
+      "description": "Primary cash flow account for payroll and bills",
+      "balance": -14849.19,
+      "goalBalance": null,
+      "goalStartBalance": null,
+      "position": 0,
+      "isArchived": false,
+      "currency": "USD",
+      "isDefault": true,
+      "groupName": "Bank Accounts"
+    },
+    {
+      "id": 2,
+      "name": "Ally High Yield Savings",
+      "description": "Emergency fund and short-term savings",
+      "balance": 27514.71,
+      "goalBalance": 30514.71,
+      "goalStartBalance": 14850,
+      "position": 1,
+      "isArchived": false,
+      "currency": "USD",
+      "isDefault": false,
+      "groupName": "Bank Accounts"
+    },
+    {
+      "id": 3,
+      "name": "Apple Cash",
+      "description": "Small cash wallet for reimbursements",
+      "balance": -3497.93,
+      "goalBalance": null,
+      "goalStartBalance": null,
+      "position": 2,
+      "isArchived": false,
+      "currency": "USD",
+      "isDefault": false,
+      "groupName": "Cash"
+    },
+    {
+      "id": 4,
+      "name": "Apple Card",
+      "description": "Everyday spending card",
+      "balance": -4290.86,
+      "goalBalance": null,
+      "goalStartBalance": null,
+      "position": 3,
+      "isArchived": false,
+      "currency": "USD",
+      "isDefault": false,
+      "groupName": "Credit Cards"
+    },
+    {
+      "id": 5,
+      "name": "Amex Blue Cash",
+      "description": "Gas and groceries card",
+      "balance": 10800.39,
+      "goalBalance": null,
+      "goalStartBalance": null,
+      "position": 4,
+      "isArchived": false,
+      "currency": "USD",
+      "isDefault": false,
+      "groupName": "Credit Cards"
+    },
+    {
+      "id": 6,
+      "name": "Fidelity Brokerage",
+      "description": "Taxable investing account",
+      "balance": 44554.19,
+      "goalBalance": 43054.19,
+      "goalStartBalance": 38640,
+      "position": 5,
+      "isArchived": false,
+      "currency": "USD",
+      "isDefault": false,
+      "groupName": "Investments"
+    },
+    {
+      "id": 7,
+      "name": "Vanguard Roth IRA",
+      "description": "Long-term retirement contributions",
+      "balance": 75000,
+      "goalBalance": null,
+      "goalStartBalance": null,
+      "position": 6,
+      "isArchived": false,
+      "currency": "USD",
+      "isDefault": false,
+      "groupName": "Investments"
+    },
+    {
+      "id": 8,
+      "name": "Capital One Auto Loan",
+      "description": "Remaining car loan balance",
+      "balance": -10600,
+      "goalBalance": -9000,
+      "goalStartBalance": -18250,
+      "position": 7,
+      "isArchived": false,
+      "currency": "USD",
+      "isDefault": false,
+      "groupName": "Loans"
+    }
+  ],
+  "sections": [
+    {
+      "id": 1,
+      "name": "Income",
+      "rawName": "Income",
+      "icon": "payments",
+      "isIncome": true,
+      "position": 0,
+      "isExpanded": true,
+      "isArchived": false,
+      "color": "#10B981"
+    },
+    {
+      "id": 2,
+      "name": "Home",
+      "rawName": "Home",
+      "icon": "home",
+      "isIncome": false,
+      "position": 1,
+      "isExpanded": true,
+      "isArchived": false,
+      "color": "#3B82F6"
+    },
+    {
+      "id": 3,
+      "name": "Groceries",
+      "rawName": "Groceries",
+      "icon": "shopping_bag",
+      "isIncome": false,
+      "position": 2,
+      "isExpanded": true,
+      "isArchived": false,
+      "color": "#22C55E"
+    },
+    {
+      "id": 4,
+      "name": "Transportation",
+      "rawName": "Transportation",
+      "icon": "directions_car",
+      "isIncome": false,
+      "position": 3,
+      "isExpanded": true,
+      "isArchived": false,
+      "color": "#F97316"
+    },
+    {
+      "id": 5,
+      "name": "Dining",
+      "rawName": "Dining",
+      "icon": "restaurant",
+      "isIncome": false,
+      "position": 4,
+      "isExpanded": true,
+      "isArchived": false,
+      "color": "#EF4444"
+    },
+    {
+      "id": 6,
+      "name": "Health",
+      "rawName": "Health",
+      "icon": "local_hospital",
+      "isIncome": false,
+      "position": 5,
+      "isExpanded": true,
+      "isArchived": false,
+      "color": "#EC4899"
+    },
+    {
+      "id": 7,
+      "name": "Family",
+      "rawName": "Family",
+      "icon": "family_restroom",
+      "isIncome": false,
+      "position": 6,
+      "isExpanded": true,
+      "isArchived": false,
+      "color": "#8B5CF6"
+    },
+    {
+      "id": 8,
+      "name": "Lifestyle",
+      "rawName": "Lifestyle",
+      "icon": "local_activity",
+      "isIncome": false,
+      "position": 7,
+      "isExpanded": true,
+      "isArchived": false,
+      "color": "#A855F7"
+    },
+    {
+      "id": 9,
+      "name": "Shopping",
+      "rawName": "Shopping",
+      "icon": "shopping_cart",
+      "isIncome": false,
+      "position": 8,
+      "isExpanded": true,
+      "isArchived": false,
+      "color": "#F59E0B"
+    },
+    {
+      "id": 10,
+      "name": "Travel",
+      "rawName": "Travel",
+      "icon": "flight",
+      "isIncome": false,
+      "position": 9,
+      "isExpanded": true,
+      "isArchived": false,
+      "color": "#06B6D4"
+    },
+    {
+      "id": 11,
+      "name": "Giving",
+      "rawName": "Giving",
+      "icon": "volunteer_activism",
+      "isIncome": false,
+      "position": 10,
+      "isExpanded": true,
+      "isArchived": false,
+      "color": "#14B8A6"
+    },
+    {
+      "id": 12,
+      "name": "Savings & Investing",
+      "rawName": "Savings & Investing",
+      "icon": "savings",
+      "isIncome": false,
+      "position": 11,
+      "isExpanded": true,
+      "isArchived": false,
+      "color": "#0EA5E9"
+    }
+  ],
+  "categories": [
+    {
+      "id": 1,
+      "name": "🏠Rent",
+      "position": 0,
+      "isArchived": false,
+      "categoryType": "needs",
+      "sectionName": "Home"
+    },
+    {
+      "id": 2,
+      "name": "🛒Groceries",
+      "position": 1,
+      "isArchived": false,
+      "categoryType": "needs",
+      "sectionName": "Groceries"
+    },
+    {
+      "id": 3,
+      "name": "⛽Gas",
+      "position": 2,
+      "isArchived": false,
+      "categoryType": "needs",
+      "sectionName": "Transportation"
+    },
+    {
+      "id": 4,
+      "name": "🛡️Health Insurance",
+      "position": 3,
+      "isArchived": false,
+      "categoryType": "needs",
+      "sectionName": "Health"
+    },
+    {
+      "id": 5,
+      "name": "🛵Delivery",
+      "position": 4,
+      "isArchived": false,
+      "categoryType": "wants",
+      "sectionName": "Dining"
+    },
+    {
+      "id": 6,
+      "name": "☕Coffee",
+      "position": 5,
+      "isArchived": false,
+      "categoryType": "wants",
+      "sectionName": "Dining"
+    },
+    {
+      "id": 7,
+      "name": "🌐Internet",
+      "position": 6,
+      "isArchived": false,
+      "categoryType": "needs",
+      "sectionName": "Home"
+    },
+    {
+      "id": 8,
+      "name": "📱Phone",
+      "position": 7,
+      "isArchived": false,
+      "categoryType": "needs",
+      "sectionName": "Home"
+    },
+    {
+      "id": 9,
+      "name": "💡Utilities",
+      "position": 8,
+      "isArchived": false,
+      "categoryType": "needs",
+      "sectionName": "Home"
+    },
+    {
+      "id": 10,
+      "name": "🧻Household Supplies",
+      "position": 9,
+      "isArchived": false,
+      "categoryType": "needs",
+      "sectionName": "Shopping"
+    },
+    {
+      "id": 11,
+      "name": "🔁Streaming",
+      "position": 10,
+      "isArchived": false,
+      "categoryType": "wants",
+      "sectionName": "Lifestyle"
+    },
+    {
+      "id": 12,
+      "name": "🧸Kids Activities",
+      "position": 11,
+      "isArchived": false,
+      "categoryType": "wants",
+      "sectionName": "Family"
+    },
+    {
+      "id": 13,
+      "name": "🛡️Car Insurance",
+      "position": 12,
+      "isArchived": false,
+      "categoryType": "needs",
+      "sectionName": "Transportation"
+    },
+    {
+      "id": 14,
+      "name": "🥗Lunch",
+      "position": 13,
+      "isArchived": false,
+      "categoryType": "wants",
+      "sectionName": "Dining"
+    },
+    {
+      "id": 15,
+      "name": "🍽️Restaurants",
+      "position": 14,
+      "isArchived": false,
+      "categoryType": "wants",
+      "sectionName": "Dining"
+    },
+    {
+      "id": 16,
+      "name": "🦷Dental",
+      "position": 15,
+      "isArchived": false,
+      "categoryType": "needs",
+      "sectionName": "Health"
+    },
+    {
+      "id": 17,
+      "name": "💼Salary",
+      "position": 16,
+      "isArchived": false,
+      "categoryType": "",
+      "sectionName": "Income"
+    },
+    {
+      "id": 18,
+      "name": "🚗Auto Loan",
+      "position": 17,
+      "isArchived": false,
+      "categoryType": "needs",
+      "sectionName": "Transportation"
+    },
+    {
+      "id": 19,
+      "name": "🐷Retirement",
+      "position": 18,
+      "isArchived": false,
+      "categoryType": "savings",
+      "sectionName": "Savings & Investing"
+    },
+    {
+      "id": 20,
+      "name": "📈Investments",
+      "position": 19,
+      "isArchived": false,
+      "categoryType": "savings",
+      "sectionName": "Savings & Investing"
+    },
+    {
+      "id": 21,
+      "name": "🩺Doctor Visit",
+      "position": 20,
+      "isArchived": false,
+      "categoryType": "needs",
+      "sectionName": "Health"
+    },
+    {
+      "id": 22,
+      "name": "📚Books",
+      "position": 21,
+      "isArchived": false,
+      "categoryType": "wants",
+      "sectionName": "Lifestyle"
+    },
+    {
+      "id": 23,
+      "name": "👕Clothing",
+      "position": 22,
+      "isArchived": false,
+      "categoryType": "wants",
+      "sectionName": "Shopping"
+    },
+    {
+      "id": 24,
+      "name": "💰Interest",
+      "position": 23,
+      "isArchived": false,
+      "categoryType": "",
+      "sectionName": "Income"
+    },
+    {
+      "id": 25,
+      "name": "🎁Donations",
+      "position": 24,
+      "isArchived": false,
+      "categoryType": "wants",
+      "sectionName": "Giving"
+    },
+    {
+      "id": 26,
+      "name": "💻Electronics",
+      "position": 25,
+      "isArchived": false,
+      "categoryType": "wants",
+      "sectionName": "Shopping"
+    },
+    {
+      "id": 27,
+      "name": "🎟️Events",
+      "position": 26,
+      "isArchived": false,
+      "categoryType": "wants",
+      "sectionName": "Lifestyle"
+    },
+    {
+      "id": 28,
+      "name": "🏨Hotels",
+      "position": 27,
+      "isArchived": false,
+      "categoryType": "wants",
+      "sectionName": "Travel"
+    },
+    {
+      "id": 29,
+      "name": "🤲Charity",
+      "position": 28,
+      "isArchived": false,
+      "categoryType": "wants",
+      "sectionName": "Giving"
+    },
+    {
+      "id": 30,
+      "name": "💊Medication",
+      "position": 29,
+      "isArchived": false,
+      "categoryType": "needs",
+      "sectionName": "Health"
+    },
+    {
+      "id": 31,
+      "name": "🧑‍💻Freelance",
+      "position": 30,
+      "isArchived": false,
+      "categoryType": "",
+      "sectionName": "Income"
+    },
+    {
+      "id": 32,
+      "name": "🛠️Home Improvement",
+      "position": 31,
+      "isArchived": false,
+      "categoryType": "wants",
+      "sectionName": "Shopping"
+    },
+    {
+      "id": 33,
+      "name": "📈Dividends",
+      "position": 32,
+      "isArchived": false,
+      "categoryType": "",
+      "sectionName": "Income"
+    },
+    {
+      "id": 34,
+      "name": "🧾Tax Refund",
+      "position": 33,
+      "isArchived": false,
+      "categoryType": "",
+      "sectionName": "Income"
+    },
+    {
+      "id": 35,
+      "name": "🎬Movies",
+      "position": 34,
+      "isArchived": false,
+      "categoryType": "wants",
+      "sectionName": "Lifestyle"
+    },
+    {
+      "id": 36,
+      "name": "✈️Flights",
+      "position": 35,
+      "isArchived": false,
+      "categoryType": "wants",
+      "sectionName": "Travel"
+    },
+    {
+      "id": 37,
+      "name": "🍽️Travel Meals",
+      "position": 36,
+      "isArchived": false,
+      "categoryType": "wants",
+      "sectionName": "Travel"
+    },
+    {
+      "id": 38,
+      "name": "🎒School Supplies",
+      "position": 37,
+      "isArchived": false,
+      "categoryType": "needs",
+      "sectionName": "Family"
+    },
+    {
+      "id": 39,
+      "name": "🚙Rental Car",
+      "position": 38,
+      "isArchived": false,
+      "categoryType": "wants",
+      "sectionName": "Travel"
+    },
+    {
+      "id": 40,
+      "name": "🎁Gifts",
+      "position": 39,
+      "isArchived": false,
+      "categoryType": "wants",
+      "sectionName": "Shopping"
+    }
+  ],
+  "contacts": [
+    {
+      "id": 1,
+      "name": "Riverside Apartments",
+      "description": "",
+      "position": 0,
+      "isArchived": false,
+      "category": "companies"
+    },
+    {
+      "id": 2,
+      "name": "Costco",
+      "description": "",
+      "position": 1,
+      "isArchived": false,
+      "category": "stores"
+    },
+    {
+      "id": 3,
+      "name": "Shell",
+      "description": "",
+      "position": 2,
+      "isArchived": false,
+      "category": "stores"
+    },
+    {
+      "id": 4,
+      "name": "Blue Cross Blue Shield",
+      "description": "",
+      "position": 3,
+      "isArchived": false,
+      "category": "healthcare"
+    },
+    {
+      "id": 5,
+      "name": "DoorDash",
+      "description": "",
+      "position": 4,
+      "isArchived": false,
+      "category": "online_stores"
+    },
+    {
+      "id": 6,
+      "name": "Union Square Greenmarket",
+      "description": "",
+      "position": 5,
+      "isArchived": false,
+      "category": "stores"
+    },
+    {
+      "id": 7,
+      "name": "Starbucks",
+      "description": "",
+      "position": 6,
+      "isArchived": false,
+      "category": "cafes"
+    },
+    {
+      "id": 8,
+      "name": "Verizon Fios",
+      "description": "",
+      "position": 7,
+      "isArchived": false,
+      "category": "companies"
+    },
+    {
+      "id": 9,
+      "name": "Whole Foods Market",
+      "description": "",
+      "position": 8,
+      "isArchived": false,
+      "category": "stores"
+    },
+    {
+      "id": 10,
+      "name": "T-Mobile",
+      "description": "",
+      "position": 9,
+      "isArchived": false,
+      "category": "companies"
+    },
+    {
+      "id": 11,
+      "name": "Costco Gas",
+      "description": "",
+      "position": 10,
+      "isArchived": false,
+      "category": "stores"
+    },
+    {
+      "id": 12,
+      "name": "Con Edison",
+      "description": "",
+      "position": 11,
+      "isArchived": false,
+      "category": "companies"
+    },
+    {
+      "id": 13,
+      "name": "Kroger",
+      "description": "",
+      "position": 12,
+      "isArchived": false,
+      "category": "stores"
+    },
+    {
+      "id": 14,
+      "name": "Target",
+      "description": "",
+      "position": 13,
+      "isArchived": false,
+      "category": "stores"
+    },
+    {
+      "id": 15,
+      "name": "National Grid",
+      "description": "",
+      "position": 14,
+      "isArchived": false,
+      "category": "companies"
+    },
+    {
+      "id": 16,
+      "name": "Netflix",
+      "description": "",
+      "position": 15,
+      "isArchived": false,
+      "category": "online_stores"
+    },
+    {
+      "id": 17,
+      "name": "YMCA",
+      "description": "",
+      "position": 16,
+      "isArchived": false,
+      "category": "companies"
+    },
+    {
+      "id": 18,
+      "name": "GEICO",
+      "description": "",
+      "position": 17,
+      "isArchived": false,
+      "category": "companies"
+    },
+    {
+      "id": 19,
+      "name": "Chipotle",
+      "description": "",
+      "position": 18,
+      "isArchived": false,
+      "category": "cafes"
+    },
+    {
+      "id": 20,
+      "name": "Trader Joe's",
+      "description": "",
+      "position": 19,
+      "isArchived": false,
+      "category": "stores"
+    },
+    {
+      "id": 21,
+      "name": "Neighborhood Pizza",
+      "description": "",
+      "position": 20,
+      "isArchived": false,
+      "category": "cafes"
+    },
+    {
+      "id": 22,
+      "name": "Exxon",
+      "description": "",
+      "position": 21,
+      "isArchived": false,
+      "category": "stores"
+    },
+    {
+      "id": 23,
+      "name": "Delta Dental",
+      "description": "",
+      "position": 22,
+      "isArchived": false,
+      "category": "healthcare"
+    },
+    {
+      "id": 24,
+      "name": "Northstar Software",
+      "description": "",
+      "position": 23,
+      "isArchived": false,
+      "category": "companies"
+    },
+    {
+      "id": 25,
+      "name": "Local Thai Kitchen",
+      "description": "",
+      "position": 24,
+      "isArchived": false,
+      "category": "cafes"
+    },
+    {
+      "id": 26,
+      "name": "Capital One Auto Finance",
+      "description": "",
+      "position": 25,
+      "isArchived": false,
+      "category": "companies"
+    },
+    {
+      "id": 27,
+      "name": "Vanguard",
+      "description": "",
+      "position": 26,
+      "isArchived": false,
+      "category": "investments"
+    },
+    {
+      "id": 28,
+      "name": "City Parks",
+      "description": "",
+      "position": 27,
+      "isArchived": false,
+      "category": "companies"
+    },
+    {
+      "id": 29,
+      "name": "Fidelity",
+      "description": "",
+      "position": 28,
+      "isArchived": false,
+      "category": "investments"
+    },
+    {
+      "id": 30,
+      "name": "One Medical",
+      "description": "",
+      "position": 29,
+      "isArchived": false,
+      "category": "healthcare"
+    },
+    {
+      "id": 31,
+      "name": "Audible",
+      "description": "",
+      "position": 30,
+      "isArchived": false,
+      "category": "online_stores"
+    },
+    {
+      "id": 32,
+      "name": "Chevron",
+      "description": "",
+      "position": 31,
+      "isArchived": false,
+      "category": "stores"
+    },
+    {
+      "id": 33,
+      "name": "REI",
+      "description": "",
+      "position": 32,
+      "isArchived": false,
+      "category": "stores"
+    },
+    {
+      "id": 34,
+      "name": "Ally Bank",
+      "description": "",
+      "position": 33,
+      "isArchived": false,
+      "category": "companies"
+    },
+    {
+      "id": 35,
+      "name": "Red Cross",
+      "description": "",
+      "position": 34,
+      "isArchived": false,
+      "category": "charity"
+    },
+    {
+      "id": 36,
+      "name": "Best Buy",
+      "description": "",
+      "position": 35,
+      "isArchived": false,
+      "category": "stores"
+    },
+    {
+      "id": 37,
+      "name": "Sweetgreen",
+      "description": "",
+      "position": 36,
+      "isArchived": false,
+      "category": "cafes"
+    },
+    {
+      "id": 38,
+      "name": "Ticketmaster",
+      "description": "",
+      "position": 37,
+      "isArchived": false,
+      "category": "companies"
+    },
+    {
+      "id": 39,
+      "name": "Airbnb",
+      "description": "",
+      "position": 38,
+      "isArchived": false,
+      "category": "companies"
+    },
+    {
+      "id": 40,
+      "name": "Local Food Bank",
+      "description": "",
+      "position": 39,
+      "isArchived": false,
+      "category": "charity"
+    },
+    {
+      "id": 41,
+      "name": "Soccer Club",
+      "description": "",
+      "position": 40,
+      "isArchived": false,
+      "category": "companies"
+    },
+    {
+      "id": 42,
+      "name": "Walgreens",
+      "description": "",
+      "position": 41,
+      "isArchived": false,
+      "category": "healthcare"
+    },
+    {
+      "id": 43,
+      "name": "CVS Pharmacy",
+      "description": "",
+      "position": 42,
+      "isArchived": false,
+      "category": "healthcare"
+    },
+    {
+      "id": 44,
+      "name": "Amazon",
+      "description": "",
+      "position": 43,
+      "isArchived": false,
+      "category": "online_stores"
+    },
+    {
+      "id": 45,
+      "name": "Cedar Studio",
+      "description": "",
+      "position": 44,
+      "isArchived": false,
+      "category": "companies"
+    },
+    {
+      "id": 46,
+      "name": "Home Depot",
+      "description": "",
+      "position": 45,
+      "isArchived": false,
+      "category": "stores"
+    },
+    {
+      "id": 47,
+      "name": "IRS",
+      "description": "",
+      "position": 46,
+      "isArchived": false,
+      "category": "other"
+    },
+    {
+      "id": 48,
+      "name": "School PTA",
+      "description": "",
+      "position": 47,
+      "isArchived": false,
+      "category": "companies"
+    },
+    {
+      "id": 49,
+      "name": "AMC Theatres",
+      "description": "",
+      "position": 48,
+      "isArchived": false,
+      "category": "companies"
+    },
+    {
+      "id": 50,
+      "name": "Marriott",
+      "description": "",
+      "position": 49,
+      "isArchived": false,
+      "category": "companies"
+    },
+    {
+      "id": 51,
+      "name": "National Park Service",
+      "description": "",
+      "position": 50,
+      "isArchived": false,
+      "category": "companies"
+    },
+    {
+      "id": 52,
+      "name": "Museum Tickets",
+      "description": "",
+      "position": 51,
+      "isArchived": false,
+      "category": "companies"
+    },
+    {
+      "id": 53,
+      "name": "Delta Air Lines",
+      "description": "",
+      "position": 52,
+      "isArchived": false,
+      "category": "companies"
+    },
+    {
+      "id": 54,
+      "name": "Lyft",
+      "description": "",
+      "position": 53,
+      "isArchived": false,
+      "category": "companies"
+    },
+    {
+      "id": 55,
+      "name": "Hertz",
+      "description": "",
+      "position": 54,
+      "isArchived": false,
+      "category": "companies"
+    },
+    {
+      "id": 56,
+      "name": "Feeding America",
+      "description": "",
+      "position": 55,
+      "isArchived": false,
+      "category": "charity"
+    }
+  ],
+  "tags": [
+    {
+      "id": 1,
+      "name": "fixed-cost",
+      "description": "",
+      "position": 0,
+      "isArchived": false
+    },
+    {
+      "id": 2,
+      "name": "bulk-stockup",
+      "description": "",
+      "position": 1,
+      "isArchived": false
+    },
+    {
+      "id": 3,
+      "name": "commute",
+      "description": "",
+      "position": 2,
+      "isArchived": false
+    },
+    {
+      "id": 4,
+      "name": "convenience",
+      "description": "",
+      "position": 3,
+      "isArchived": false
+    },
+    {
+      "id": 5,
+      "name": "weekly-errands",
+      "description": "",
+      "position": 4,
+      "isArchived": false
+    },
+    {
+      "id": 6,
+      "name": "workday",
+      "description": "",
+      "position": 5,
+      "isArchived": false
+    },
+    {
+      "id": 7,
+      "name": "winter-peak",
+      "description": "",
+      "position": 6,
+      "isArchived": false
+    },
+    {
+      "id": 8,
+      "name": "subscription",
+      "description": "",
+      "position": 7,
+      "isArchived": false
+    },
+    {
+      "id": 9,
+      "name": "kids",
+      "description": "",
+      "position": 8,
+      "isArchived": false
+    },
+    {
+      "id": 10,
+      "name": "family-night",
+      "description": "",
+      "position": 9,
+      "isArchived": false
+    },
+    {
+      "id": 11,
+      "name": "hsa-eligible",
+      "description": "",
+      "position": 10,
+      "isArchived": false
+    },
+    {
+      "id": 12,
+      "name": "primary-income",
+      "description": "",
+      "position": 11,
+      "isArchived": false
+    },
+    {
+      "id": 13,
+      "name": "date-night",
+      "description": "",
+      "position": 12,
+      "isArchived": false
+    },
+    {
+      "id": 14,
+      "name": "split-receipt",
+      "description": "",
+      "position": 13,
+      "isArchived": false
+    },
+    {
+      "id": 15,
+      "name": "long-term-goals",
+      "description": "",
+      "position": 14,
+      "isArchived": false
+    },
+    {
+      "id": 16,
+      "name": "after-school",
+      "description": "",
+      "position": 15,
+      "isArchived": false
+    },
+    {
+      "id": 17,
+      "name": "seasonal-refresh",
+      "description": "",
+      "position": 16,
+      "isArchived": false
+    },
+    {
+      "id": 18,
+      "name": "passive-income",
+      "description": "",
+      "position": 17,
+      "isArchived": false
+    },
+    {
+      "id": 19,
+      "name": "community",
+      "description": "",
+      "position": 18,
+      "isArchived": false
+    },
+    {
+      "id": 20,
+      "name": "home-office",
+      "description": "",
+      "position": 19,
+      "isArchived": false
+    },
+    {
+      "id": 21,
+      "name": "event-night",
+      "description": "",
+      "position": 20,
+      "isArchived": false
+    },
+    {
+      "id": 22,
+      "name": "long-weekend",
+      "description": "",
+      "position": 21,
+      "isArchived": false
+    },
+    {
+      "id": 23,
+      "name": "giving",
+      "description": "",
+      "position": 22,
+      "isArchived": false
+    },
+    {
+      "id": 24,
+      "name": "target-run",
+      "description": "",
+      "position": 23,
+      "isArchived": false
+    },
+    {
+      "id": 25,
+      "name": "return-credit",
+      "description": "",
+      "position": 24,
+      "isArchived": false
+    },
+    {
+      "id": 26,
+      "name": "online-order",
+      "description": "",
+      "position": 25,
+      "isArchived": false
+    },
+    {
+      "id": 27,
+      "name": "client-work",
+      "description": "",
+      "position": 26,
+      "isArchived": false
+    },
+    {
+      "id": 28,
+      "name": "apartment-upkeep",
+      "description": "",
+      "position": 27,
+      "isArchived": false
+    },
+    {
+      "id": 29,
+      "name": "tax-season",
+      "description": "",
+      "position": 28,
+      "isArchived": false
+    },
+    {
+      "id": 30,
+      "name": "summer-peak",
+      "description": "",
+      "position": 29,
+      "isArchived": false
+    },
+    {
+      "id": 31,
+      "name": "summer-trip",
+      "description": "",
+      "position": 30,
+      "isArchived": false
+    },
+    {
+      "id": 32,
+      "name": "school-year",
+      "description": "",
+      "position": 31,
+      "isArchived": false
+    },
+    {
+      "id": 33,
+      "name": "thanksgiving-trip",
+      "description": "",
+      "position": 32,
+      "isArchived": false
+    },
+    {
+      "id": 34,
+      "name": "holiday-trip",
+      "description": "",
+      "position": 33,
+      "isArchived": false
+    },
+    {
+      "id": 35,
+      "name": "holiday-season",
+      "description": "",
+      "position": 34,
+      "isArchived": false
+    }
+  ],
+  "savedSets": [
+    {
+      "id": 1,
+      "name": "Core bills",
+      "position": 0,
+      "startDate": null,
+      "endDate": null,
+      "includeFiltersOperator": "and",
+      "includeMinAmount": null,
+      "includeMaxAmount": null,
+      "include": {
+        "categories": [],
+        "sections": [],
+        "contacts": [],
+        "tags": [
+          "fixed-cost"
+        ],
+        "accounts": [],
+        "descriptions": [],
+        "categoryTypes": [],
+        "contactTypes": []
+      },
+      "exclude": {
+        "categories": [],
+        "sections": [],
+        "contacts": [],
+        "tags": [],
+        "accounts": [],
+        "descriptions": [],
+        "categoryTypes": [],
+        "contactTypes": []
+      }
+    },
+    {
+      "id": 2,
+      "name": "Travel spending",
+      "position": 1,
+      "startDate": null,
+      "endDate": null,
+      "includeFiltersOperator": "and",
+      "includeMinAmount": null,
+      "includeMaxAmount": null,
+      "include": {
+        "categories": [],
+        "sections": [
+          "Travel"
+        ],
+        "contacts": [],
+        "tags": [],
+        "accounts": [],
+        "descriptions": [],
+        "categoryTypes": [],
+        "contactTypes": []
+      },
+      "exclude": {
+        "categories": [],
+        "sections": [],
+        "contacts": [],
+        "tags": [],
+        "accounts": [],
+        "descriptions": [],
+        "categoryTypes": [],
+        "contactTypes": []
+      }
+    },
+    {
+      "id": 3,
+      "name": "Long-term goals",
+      "position": 2,
+      "startDate": null,
+      "endDate": null,
+      "includeFiltersOperator": "and",
+      "includeMinAmount": null,
+      "includeMaxAmount": null,
+      "include": {
+        "categories": [],
+        "sections": [],
+        "contacts": [],
+        "tags": [
+          "long-term-goals"
+        ],
+        "accounts": [],
+        "descriptions": [],
+        "categoryTypes": [],
+        "contactTypes": []
+      },
+      "exclude": {
+        "categories": [],
+        "sections": [],
+        "contacts": [],
+        "tags": [],
+        "accounts": [],
+        "descriptions": [],
+        "categoryTypes": [],
+        "contactTypes": []
+      }
+    }
+  ],
+  "recurringTemplates": [
+    {
+      "id": 1,
+      "amount": -2245,
+      "fromAmount": 2245,
+      "toAmount": 0,
+      "type": "expense",
+      "description": "ACH rent payment - Riverside Apartments",
+      "section": "Home",
+      "category": "🏠Rent",
+      "contact": "Riverside Apartments",
+      "fromAccount": "Chase Checking",
+      "toAccount": "",
+      "tags": [
+        "fixed-cost"
+      ],
+      "isRecurring": true,
+      "repeatUnit": "month",
+      "repeatInterval": 1,
+      "monthdays": [
+        1
+      ],
+      "weekdays": [],
+      "nthWeek": null,
+      "nthWeekday": null,
+      "yearMonths": [],
+      "recurrenceType": "monthdays",
+      "recurrencePreset": "monthly",
+      "startDate": "2025-01-01",
+      "nextDate": "2026-07-01",
+      "lastDate": "2026-06-01",
+      "endDate": null,
+      "maxOccurrences": null,
+      "occurrencesCount": 18,
+      "occurrences": [
+        {
+          "transactionId": 10,
+          "date": "2025-01-01",
+          "amount": -2150,
+          "fromAmount": 2150,
+          "toAmount": 0,
+          "description": "ACH rent payment - Riverside Apartments"
+        },
+        {
+          "transactionId": 66,
+          "date": "2025-02-01",
+          "amount": -2150,
+          "fromAmount": 2150,
+          "toAmount": 0,
+          "description": "ACH rent payment - Riverside Apartments"
+        },
+        {
+          "transactionId": 123,
+          "date": "2025-03-01",
+          "amount": -2150,
+          "fromAmount": 2150,
+          "toAmount": 0,
+          "description": "ACH rent payment - Riverside Apartments"
+        },
+        {
+          "transactionId": 182,
+          "date": "2025-04-01",
+          "amount": -2150,
+          "fromAmount": 2150,
+          "toAmount": 0,
+          "description": "ACH rent payment - Riverside Apartments"
+        },
+        {
+          "transactionId": 241,
+          "date": "2025-05-01",
+          "amount": -2150,
+          "fromAmount": 2150,
+          "toAmount": 0,
+          "description": "ACH rent payment - Riverside Apartments"
+        },
+        {
+          "transactionId": 299,
+          "date": "2025-06-01",
+          "amount": -2150,
+          "fromAmount": 2150,
+          "toAmount": 0,
+          "description": "ACH rent payment - Riverside Apartments"
+        },
+        {
+          "transactionId": 355,
+          "date": "2025-07-01",
+          "amount": -2150,
+          "fromAmount": 2150,
+          "toAmount": 0,
+          "description": "ACH rent payment - Riverside Apartments"
+        },
+        {
+          "transactionId": 414,
+          "date": "2025-08-01",
+          "amount": -2150,
+          "fromAmount": 2150,
+          "toAmount": 0,
+          "description": "ACH rent payment - Riverside Apartments"
+        },
+        {
+          "transactionId": 470,
+          "date": "2025-09-01",
+          "amount": -2150,
+          "fromAmount": 2150,
+          "toAmount": 0,
+          "description": "ACH rent payment - Riverside Apartments"
+        },
+        {
+          "transactionId": 525,
+          "date": "2025-10-01",
+          "amount": -2150,
+          "fromAmount": 2150,
+          "toAmount": 0,
+          "description": "ACH rent payment - Riverside Apartments"
+        },
+        {
+          "transactionId": 581,
+          "date": "2025-11-01",
+          "amount": -2150,
+          "fromAmount": 2150,
+          "toAmount": 0,
+          "description": "ACH rent payment - Riverside Apartments"
+        },
+        {
+          "transactionId": 641,
+          "date": "2025-12-01",
+          "amount": -2150,
+          "fromAmount": 2150,
+          "toAmount": 0,
+          "description": "ACH rent payment - Riverside Apartments"
+        },
+        {
+          "transactionId": 700,
+          "date": "2026-01-01",
+          "amount": -2245,
+          "fromAmount": 2245,
+          "toAmount": 0,
+          "description": "ACH rent payment - Riverside Apartments"
+        },
+        {
+          "transactionId": 756,
+          "date": "2026-02-01",
+          "amount": -2245,
+          "fromAmount": 2245,
+          "toAmount": 0,
+          "description": "ACH rent payment - Riverside Apartments"
+        },
+        {
+          "transactionId": 814,
+          "date": "2026-03-01",
+          "amount": -2245,
+          "fromAmount": 2245,
+          "toAmount": 0,
+          "description": "ACH rent payment - Riverside Apartments"
+        },
+        {
+          "transactionId": 869,
+          "date": "2026-04-01",
+          "amount": -2245,
+          "fromAmount": 2245,
+          "toAmount": 0,
+          "description": "ACH rent payment - Riverside Apartments"
+        },
+        {
+          "transactionId": 927,
+          "date": "2026-05-01",
+          "amount": -2245,
+          "fromAmount": 2245,
+          "toAmount": 0,
+          "description": "ACH rent payment - Riverside Apartments"
+        },
+        {
+          "transactionId": 984,
+          "date": "2026-06-01",
+          "amount": -2245,
+          "fromAmount": 2245,
+          "toAmount": 0,
+          "description": "ACH rent payment - Riverside Apartments"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "amount": 3360,
+      "fromAmount": 0,
+      "toAmount": 3360,
+      "type": "income",
+      "description": "Payroll direct deposit",
+      "section": "Income",
+      "category": "💼Salary",
+      "contact": "Northstar Software",
+      "fromAccount": "",
+      "toAccount": "Chase Checking",
+      "tags": [
+        "primary-income"
+      ],
+      "isRecurring": true,
+      "repeatUnit": "month",
+      "repeatInterval": 1,
+      "monthdays": [
+        15,
+        31
+      ],
+      "weekdays": [],
+      "nthWeek": null,
+      "nthWeekday": null,
+      "yearMonths": [],
+      "recurrenceType": "monthdays",
+      "recurrencePreset": "twice_monthly",
+      "startDate": "2025-01-01",
+      "nextDate": "2026-07-15",
+      "lastDate": "2026-06-30",
+      "endDate": null,
+      "maxOccurrences": null,
+      "occurrencesCount": 36,
+      "occurrences": [
+        {
+          "transactionId": 27,
+          "date": "2025-01-15",
+          "amount": 3250,
+          "fromAmount": 0,
+          "toAmount": 3250,
+          "description": "Payroll direct deposit"
+        },
+        {
+          "transactionId": 28,
+          "date": "2025-01-31",
+          "amount": 3250,
+          "fromAmount": 0,
+          "toAmount": 3250,
+          "description": "Payroll direct deposit"
+        },
+        {
+          "transactionId": 84,
+          "date": "2025-02-15",
+          "amount": 3250,
+          "fromAmount": 0,
+          "toAmount": 3250,
+          "description": "Payroll direct deposit"
+        },
+        {
+          "transactionId": 85,
+          "date": "2025-02-28",
+          "amount": 3250,
+          "fromAmount": 0,
+          "toAmount": 3250,
+          "description": "Payroll direct deposit"
+        },
+        {
+          "transactionId": 141,
+          "date": "2025-03-15",
+          "amount": 3250,
+          "fromAmount": 0,
+          "toAmount": 3250,
+          "description": "Payroll direct deposit"
+        },
+        {
+          "transactionId": 142,
+          "date": "2025-03-31",
+          "amount": 3250,
+          "fromAmount": 0,
+          "toAmount": 3250,
+          "description": "Payroll direct deposit"
+        },
+        {
+          "transactionId": 199,
+          "date": "2025-04-15",
+          "amount": 3250,
+          "fromAmount": 0,
+          "toAmount": 3250,
+          "description": "Payroll direct deposit"
+        },
+        {
+          "transactionId": 200,
+          "date": "2025-04-30",
+          "amount": 3250,
+          "fromAmount": 0,
+          "toAmount": 3250,
+          "description": "Payroll direct deposit"
+        },
+        {
+          "transactionId": 260,
+          "date": "2025-05-15",
+          "amount": 3250,
+          "fromAmount": 0,
+          "toAmount": 3250,
+          "description": "Payroll direct deposit"
+        },
+        {
+          "transactionId": 261,
+          "date": "2025-05-31",
+          "amount": 3250,
+          "fromAmount": 0,
+          "toAmount": 3250,
+          "description": "Payroll direct deposit"
+        },
+        {
+          "transactionId": 316,
+          "date": "2025-06-15",
+          "amount": 3250,
+          "fromAmount": 0,
+          "toAmount": 3250,
+          "description": "Payroll direct deposit"
+        },
+        {
+          "transactionId": 317,
+          "date": "2025-06-30",
+          "amount": 3250,
+          "fromAmount": 0,
+          "toAmount": 3250,
+          "description": "Payroll direct deposit"
+        },
+        {
+          "transactionId": 372,
+          "date": "2025-07-15",
+          "amount": 3250,
+          "fromAmount": 0,
+          "toAmount": 3250,
+          "description": "Payroll direct deposit"
+        },
+        {
+          "transactionId": 373,
+          "date": "2025-07-31",
+          "amount": 3250,
+          "fromAmount": 0,
+          "toAmount": 3250,
+          "description": "Payroll direct deposit"
+        },
+        {
+          "transactionId": 433,
+          "date": "2025-08-15",
+          "amount": 3250,
+          "fromAmount": 0,
+          "toAmount": 3250,
+          "description": "Payroll direct deposit"
+        },
+        {
+          "transactionId": 434,
+          "date": "2025-08-31",
+          "amount": 3250,
+          "fromAmount": 0,
+          "toAmount": 3250,
+          "description": "Payroll direct deposit"
+        },
+        {
+          "transactionId": 487,
+          "date": "2025-09-15",
+          "amount": 3250,
+          "fromAmount": 0,
+          "toAmount": 3250,
+          "description": "Payroll direct deposit"
+        },
+        {
+          "transactionId": 488,
+          "date": "2025-09-30",
+          "amount": 3250,
+          "fromAmount": 0,
+          "toAmount": 3250,
+          "description": "Payroll direct deposit"
+        },
+        {
+          "transactionId": 542,
+          "date": "2025-10-15",
+          "amount": 3250,
+          "fromAmount": 0,
+          "toAmount": 3250,
+          "description": "Payroll direct deposit"
+        },
+        {
+          "transactionId": 543,
+          "date": "2025-10-31",
+          "amount": 3250,
+          "fromAmount": 0,
+          "toAmount": 3250,
+          "description": "Payroll direct deposit"
+        },
+        {
+          "transactionId": 600,
+          "date": "2025-11-15",
+          "amount": 3250,
+          "fromAmount": 0,
+          "toAmount": 3250,
+          "description": "Payroll direct deposit"
+        },
+        {
+          "transactionId": 601,
+          "date": "2025-11-30",
+          "amount": 3250,
+          "fromAmount": 0,
+          "toAmount": 3250,
+          "description": "Payroll direct deposit"
+        },
+        {
+          "transactionId": 658,
+          "date": "2025-12-15",
+          "amount": 3250,
+          "fromAmount": 0,
+          "toAmount": 3250,
+          "description": "Payroll direct deposit"
+        },
+        {
+          "transactionId": 659,
+          "date": "2025-12-31",
+          "amount": 3250,
+          "fromAmount": 0,
+          "toAmount": 3250,
+          "description": "Payroll direct deposit"
+        },
+        {
+          "transactionId": 718,
+          "date": "2026-01-15",
+          "amount": 3360,
+          "fromAmount": 0,
+          "toAmount": 3360,
+          "description": "Payroll direct deposit"
+        },
+        {
+          "transactionId": 719,
+          "date": "2026-01-31",
+          "amount": 3360,
+          "fromAmount": 0,
+          "toAmount": 3360,
+          "description": "Payroll direct deposit"
+        },
+        {
+          "transactionId": 774,
+          "date": "2026-02-15",
+          "amount": 3360,
+          "fromAmount": 0,
+          "toAmount": 3360,
+          "description": "Payroll direct deposit"
+        },
+        {
+          "transactionId": 775,
+          "date": "2026-02-28",
+          "amount": 3360,
+          "fromAmount": 0,
+          "toAmount": 3360,
+          "description": "Payroll direct deposit"
+        },
+        {
+          "transactionId": 831,
+          "date": "2026-03-15",
+          "amount": 3360,
+          "fromAmount": 0,
+          "toAmount": 3360,
+          "description": "Payroll direct deposit"
+        },
+        {
+          "transactionId": 832,
+          "date": "2026-03-31",
+          "amount": 3360,
+          "fromAmount": 0,
+          "toAmount": 3360,
+          "description": "Payroll direct deposit"
+        },
+        {
+          "transactionId": 886,
+          "date": "2026-04-15",
+          "amount": 3360,
+          "fromAmount": 0,
+          "toAmount": 3360,
+          "description": "Payroll direct deposit"
+        },
+        {
+          "transactionId": 887,
+          "date": "2026-04-30",
+          "amount": 3360,
+          "fromAmount": 0,
+          "toAmount": 3360,
+          "description": "Payroll direct deposit"
+        },
+        {
+          "transactionId": 946,
+          "date": "2026-05-15",
+          "amount": 3360,
+          "fromAmount": 0,
+          "toAmount": 3360,
+          "description": "Payroll direct deposit"
+        },
+        {
+          "transactionId": 947,
+          "date": "2026-05-31",
+          "amount": 3360,
+          "fromAmount": 0,
+          "toAmount": 3360,
+          "description": "Payroll direct deposit"
+        },
+        {
+          "transactionId": 1001,
+          "date": "2026-06-15",
+          "amount": 3360,
+          "fromAmount": 0,
+          "toAmount": 3360,
+          "description": "Payroll direct deposit"
+        },
+        {
+          "transactionId": 1002,
+          "date": "2026-06-30",
+          "amount": 3360,
+          "fromAmount": 0,
+          "toAmount": 3360,
+          "description": "Payroll direct deposit"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "amount": 44.26,
+      "fromAmount": 0,
+      "toAmount": 44.26,
+      "type": "income",
+      "description": "High-yield savings interest",
+      "section": "Income",
+      "category": "💰Interest",
+      "contact": "Ally Bank",
+      "fromAccount": "",
+      "toAccount": "Ally High Yield Savings",
+      "tags": [
+        "passive-income"
+      ],
+      "isRecurring": true,
+      "repeatUnit": "month",
+      "repeatInterval": 1,
+      "monthdays": [
+        25
+      ],
+      "weekdays": [],
+      "nthWeek": null,
+      "nthWeekday": null,
+      "yearMonths": [],
+      "recurrenceType": "monthdays",
+      "recurrencePreset": "monthly",
+      "startDate": "2025-01-01",
+      "nextDate": "2026-07-25",
+      "lastDate": "2026-06-25",
+      "endDate": null,
+      "maxOccurrences": null,
+      "occurrencesCount": 18,
+      "occurrences": [
+        {
+          "transactionId": 29,
+          "date": "2025-01-25",
+          "amount": 30.95,
+          "fromAmount": 0,
+          "toAmount": 30.95,
+          "description": "High-yield savings interest"
+        },
+        {
+          "transactionId": 86,
+          "date": "2025-02-25",
+          "amount": 46.68,
+          "fromAmount": 0,
+          "toAmount": 46.68,
+          "description": "High-yield savings interest"
+        },
+        {
+          "transactionId": 143,
+          "date": "2025-03-25",
+          "amount": 38.09,
+          "fromAmount": 0,
+          "toAmount": 38.09,
+          "description": "High-yield savings interest"
+        },
+        {
+          "transactionId": 201,
+          "date": "2025-04-25",
+          "amount": 60.57,
+          "fromAmount": 0,
+          "toAmount": 60.57,
+          "description": "High-yield savings interest"
+        },
+        {
+          "transactionId": 262,
+          "date": "2025-05-25",
+          "amount": 72.29,
+          "fromAmount": 0,
+          "toAmount": 72.29,
+          "description": "High-yield savings interest"
+        },
+        {
+          "transactionId": 318,
+          "date": "2025-06-25",
+          "amount": 49.85,
+          "fromAmount": 0,
+          "toAmount": 49.85,
+          "description": "High-yield savings interest"
+        },
+        {
+          "transactionId": 374,
+          "date": "2025-07-25",
+          "amount": 54.83,
+          "fromAmount": 0,
+          "toAmount": 54.83,
+          "description": "High-yield savings interest"
+        },
+        {
+          "transactionId": 435,
+          "date": "2025-08-25",
+          "amount": 59.95,
+          "fromAmount": 0,
+          "toAmount": 59.95,
+          "description": "High-yield savings interest"
+        },
+        {
+          "transactionId": 489,
+          "date": "2025-09-25",
+          "amount": 64.37,
+          "fromAmount": 0,
+          "toAmount": 64.37,
+          "description": "High-yield savings interest"
+        },
+        {
+          "transactionId": 544,
+          "date": "2025-10-25",
+          "amount": 33.78,
+          "fromAmount": 0,
+          "toAmount": 33.78,
+          "description": "High-yield savings interest"
+        },
+        {
+          "transactionId": 602,
+          "date": "2025-11-25",
+          "amount": 71.72,
+          "fromAmount": 0,
+          "toAmount": 71.72,
+          "description": "High-yield savings interest"
+        },
+        {
+          "transactionId": 660,
+          "date": "2025-12-25",
+          "amount": 53.98,
+          "fromAmount": 0,
+          "toAmount": 53.98,
+          "description": "High-yield savings interest"
+        },
+        {
+          "transactionId": 720,
+          "date": "2026-01-25",
+          "amount": 68.82,
+          "fromAmount": 0,
+          "toAmount": 68.82,
+          "description": "High-yield savings interest"
+        },
+        {
+          "transactionId": 776,
+          "date": "2026-02-25",
+          "amount": 43.6,
+          "fromAmount": 0,
+          "toAmount": 43.6,
+          "description": "High-yield savings interest"
+        },
+        {
+          "transactionId": 833,
+          "date": "2026-03-25",
+          "amount": 58.61,
+          "fromAmount": 0,
+          "toAmount": 58.61,
+          "description": "High-yield savings interest"
+        },
+        {
+          "transactionId": 888,
+          "date": "2026-04-25",
+          "amount": 61.57,
+          "fromAmount": 0,
+          "toAmount": 61.57,
+          "description": "High-yield savings interest"
+        },
+        {
+          "transactionId": 948,
+          "date": "2026-05-25",
+          "amount": 36,
+          "fromAmount": 0,
+          "toAmount": 36,
+          "description": "High-yield savings interest"
+        },
+        {
+          "transactionId": 1003,
+          "date": "2026-06-25",
+          "amount": 59.05,
+          "fromAmount": 0,
+          "toAmount": 59.05,
+          "description": "High-yield savings interest"
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "amount": 0,
+      "fromAmount": 650,
+      "toAmount": 650,
+      "type": "transfer",
+      "description": "Automatic savings transfer",
+      "section": "",
+      "category": "",
+      "contact": "",
+      "fromAccount": "Chase Checking",
+      "toAccount": "Ally High Yield Savings",
+      "tags": [],
+      "isRecurring": true,
+      "repeatUnit": "month",
+      "repeatInterval": 1,
+      "monthdays": [
+        7
+      ],
+      "weekdays": [],
+      "nthWeek": null,
+      "nthWeekday": null,
+      "yearMonths": [],
+      "recurrenceType": "monthdays",
+      "recurrencePreset": "monthly",
+      "startDate": "2025-01-01",
+      "nextDate": "2026-07-07",
+      "lastDate": "2026-06-07",
+      "endDate": null,
+      "maxOccurrences": null,
+      "occurrencesCount": 18,
+      "occurrences": [
+        {
+          "transactionId": 30,
+          "date": "2025-01-07",
+          "amount": 0,
+          "fromAmount": 650,
+          "toAmount": 650,
+          "description": "Automatic savings transfer"
+        },
+        {
+          "transactionId": 87,
+          "date": "2025-02-07",
+          "amount": 0,
+          "fromAmount": 650,
+          "toAmount": 650,
+          "description": "Automatic savings transfer"
+        },
+        {
+          "transactionId": 144,
+          "date": "2025-03-07",
+          "amount": 0,
+          "fromAmount": 650,
+          "toAmount": 650,
+          "description": "Automatic savings transfer"
+        },
+        {
+          "transactionId": 202,
+          "date": "2025-04-07",
+          "amount": 0,
+          "fromAmount": 650,
+          "toAmount": 650,
+          "description": "Automatic savings transfer"
+        },
+        {
+          "transactionId": 263,
+          "date": "2025-05-07",
+          "amount": 0,
+          "fromAmount": 650,
+          "toAmount": 650,
+          "description": "Automatic savings transfer"
+        },
+        {
+          "transactionId": 319,
+          "date": "2025-06-07",
+          "amount": 0,
+          "fromAmount": 650,
+          "toAmount": 650,
+          "description": "Automatic savings transfer"
+        },
+        {
+          "transactionId": 375,
+          "date": "2025-07-07",
+          "amount": 0,
+          "fromAmount": 650,
+          "toAmount": 650,
+          "description": "Automatic savings transfer"
+        },
+        {
+          "transactionId": 436,
+          "date": "2025-08-07",
+          "amount": 0,
+          "fromAmount": 650,
+          "toAmount": 650,
+          "description": "Automatic savings transfer"
+        },
+        {
+          "transactionId": 490,
+          "date": "2025-09-07",
+          "amount": 0,
+          "fromAmount": 650,
+          "toAmount": 650,
+          "description": "Automatic savings transfer"
+        },
+        {
+          "transactionId": 545,
+          "date": "2025-10-07",
+          "amount": 0,
+          "fromAmount": 650,
+          "toAmount": 650,
+          "description": "Automatic savings transfer"
+        },
+        {
+          "transactionId": 603,
+          "date": "2025-11-07",
+          "amount": 0,
+          "fromAmount": 650,
+          "toAmount": 650,
+          "description": "Automatic savings transfer"
+        },
+        {
+          "transactionId": 661,
+          "date": "2025-12-07",
+          "amount": 0,
+          "fromAmount": 650,
+          "toAmount": 650,
+          "description": "Automatic savings transfer"
+        },
+        {
+          "transactionId": 721,
+          "date": "2026-01-07",
+          "amount": 0,
+          "fromAmount": 650,
+          "toAmount": 650,
+          "description": "Automatic savings transfer"
+        },
+        {
+          "transactionId": 777,
+          "date": "2026-02-07",
+          "amount": 0,
+          "fromAmount": 650,
+          "toAmount": 650,
+          "description": "Automatic savings transfer"
+        },
+        {
+          "transactionId": 834,
+          "date": "2026-03-07",
+          "amount": 0,
+          "fromAmount": 650,
+          "toAmount": 650,
+          "description": "Automatic savings transfer"
+        },
+        {
+          "transactionId": 889,
+          "date": "2026-04-07",
+          "amount": 0,
+          "fromAmount": 650,
+          "toAmount": 650,
+          "description": "Automatic savings transfer"
+        },
+        {
+          "transactionId": 949,
+          "date": "2026-05-07",
+          "amount": 0,
+          "fromAmount": 650,
+          "toAmount": 650,
+          "description": "Automatic savings transfer"
+        },
+        {
+          "transactionId": 1004,
+          "date": "2026-06-07",
+          "amount": 0,
+          "fromAmount": 650,
+          "toAmount": 650,
+          "description": "Automatic savings transfer"
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "amount": -600,
+      "fromAmount": 600,
+      "toAmount": 600,
+      "type": "expense",
+      "description": "Roth IRA contribution",
+      "section": "Savings & Investing",
+      "category": "🐷Retirement",
+      "contact": "Vanguard",
+      "fromAccount": "Chase Checking",
+      "toAccount": "Vanguard Roth IRA",
+      "tags": [
+        "long-term-goals"
+      ],
+      "isRecurring": true,
+      "repeatUnit": "month",
+      "repeatInterval": 1,
+      "monthdays": [
+        18
+      ],
+      "weekdays": [],
+      "nthWeek": null,
+      "nthWeekday": null,
+      "yearMonths": [],
+      "recurrenceType": "monthdays",
+      "recurrencePreset": "monthly",
+      "startDate": "2025-01-01",
+      "nextDate": "2026-07-18",
+      "lastDate": "2026-06-18",
+      "endDate": null,
+      "maxOccurrences": null,
+      "occurrencesCount": 18,
+      "occurrences": [
+        {
+          "transactionId": 18,
+          "date": "2025-01-18",
+          "amount": -600,
+          "fromAmount": 600,
+          "toAmount": 600,
+          "description": "Roth IRA contribution"
+        },
+        {
+          "transactionId": 74,
+          "date": "2025-02-18",
+          "amount": -600,
+          "fromAmount": 600,
+          "toAmount": 600,
+          "description": "Roth IRA contribution"
+        },
+        {
+          "transactionId": 131,
+          "date": "2025-03-18",
+          "amount": -600,
+          "fromAmount": 600,
+          "toAmount": 600,
+          "description": "Roth IRA contribution"
+        },
+        {
+          "transactionId": 190,
+          "date": "2025-04-18",
+          "amount": -600,
+          "fromAmount": 600,
+          "toAmount": 600,
+          "description": "Roth IRA contribution"
+        },
+        {
+          "transactionId": 249,
+          "date": "2025-05-18",
+          "amount": -600,
+          "fromAmount": 600,
+          "toAmount": 600,
+          "description": "Roth IRA contribution"
+        },
+        {
+          "transactionId": 307,
+          "date": "2025-06-18",
+          "amount": -600,
+          "fromAmount": 600,
+          "toAmount": 600,
+          "description": "Roth IRA contribution"
+        },
+        {
+          "transactionId": 363,
+          "date": "2025-07-18",
+          "amount": -600,
+          "fromAmount": 600,
+          "toAmount": 600,
+          "description": "Roth IRA contribution"
+        },
+        {
+          "transactionId": 422,
+          "date": "2025-08-18",
+          "amount": -600,
+          "fromAmount": 600,
+          "toAmount": 600,
+          "description": "Roth IRA contribution"
+        },
+        {
+          "transactionId": 478,
+          "date": "2025-09-18",
+          "amount": -600,
+          "fromAmount": 600,
+          "toAmount": 600,
+          "description": "Roth IRA contribution"
+        },
+        {
+          "transactionId": 533,
+          "date": "2025-10-18",
+          "amount": -600,
+          "fromAmount": 600,
+          "toAmount": 600,
+          "description": "Roth IRA contribution"
+        },
+        {
+          "transactionId": 589,
+          "date": "2025-11-18",
+          "amount": -600,
+          "fromAmount": 600,
+          "toAmount": 600,
+          "description": "Roth IRA contribution"
+        },
+        {
+          "transactionId": 649,
+          "date": "2025-12-18",
+          "amount": -600,
+          "fromAmount": 600,
+          "toAmount": 600,
+          "description": "Roth IRA contribution"
+        },
+        {
+          "transactionId": 708,
+          "date": "2026-01-18",
+          "amount": -600,
+          "fromAmount": 600,
+          "toAmount": 600,
+          "description": "Roth IRA contribution"
+        },
+        {
+          "transactionId": 764,
+          "date": "2026-02-18",
+          "amount": -600,
+          "fromAmount": 600,
+          "toAmount": 600,
+          "description": "Roth IRA contribution"
+        },
+        {
+          "transactionId": 822,
+          "date": "2026-03-18",
+          "amount": -600,
+          "fromAmount": 600,
+          "toAmount": 600,
+          "description": "Roth IRA contribution"
+        },
+        {
+          "transactionId": 877,
+          "date": "2026-04-18",
+          "amount": -600,
+          "fromAmount": 600,
+          "toAmount": 600,
+          "description": "Roth IRA contribution"
+        },
+        {
+          "transactionId": 935,
+          "date": "2026-05-18",
+          "amount": -600,
+          "fromAmount": 600,
+          "toAmount": 600,
+          "description": "Roth IRA contribution"
+        },
+        {
+          "transactionId": 992,
+          "date": "2026-06-18",
+          "amount": -600,
+          "fromAmount": 600,
+          "toAmount": 600,
+          "description": "Roth IRA contribution"
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "amount": -250,
+      "fromAmount": 250,
+      "toAmount": 0,
+      "type": "expense",
+      "description": "Brokerage contribution",
+      "section": "Savings & Investing",
+      "category": "📈Investments",
+      "contact": "Fidelity",
+      "fromAccount": "Chase Checking",
+      "toAccount": "Fidelity Brokerage",
+      "tags": [
+        "long-term-goals"
+      ],
+      "isRecurring": true,
+      "repeatUnit": "month",
+      "repeatInterval": 1,
+      "monthdays": [
+        20
+      ],
+      "weekdays": [],
+      "nthWeek": null,
+      "nthWeekday": null,
+      "yearMonths": [],
+      "recurrenceType": "monthdays",
+      "recurrencePreset": "monthly",
+      "startDate": "2025-01-01",
+      "nextDate": "2026-07-20",
+      "lastDate": "2026-06-20",
+      "endDate": null,
+      "maxOccurrences": null,
+      "occurrencesCount": 18,
+      "occurrences": [
+        {
+          "transactionId": 19,
+          "date": "2025-01-20",
+          "amount": -250,
+          "fromAmount": 250,
+          "toAmount": 250,
+          "description": "Brokerage contribution"
+        },
+        {
+          "transactionId": 75,
+          "date": "2025-02-20",
+          "amount": -250,
+          "fromAmount": 250,
+          "toAmount": 250,
+          "description": "Brokerage contribution"
+        },
+        {
+          "transactionId": 132,
+          "date": "2025-03-20",
+          "amount": -250,
+          "fromAmount": 250,
+          "toAmount": 250,
+          "description": "Brokerage contribution"
+        },
+        {
+          "transactionId": 191,
+          "date": "2025-04-20",
+          "amount": -250,
+          "fromAmount": 250,
+          "toAmount": 250,
+          "description": "Brokerage contribution"
+        },
+        {
+          "transactionId": 250,
+          "date": "2025-05-20",
+          "amount": -250,
+          "fromAmount": 250,
+          "toAmount": 250,
+          "description": "Brokerage contribution"
+        },
+        {
+          "transactionId": 308,
+          "date": "2025-06-20",
+          "amount": -250,
+          "fromAmount": 250,
+          "toAmount": 250,
+          "description": "Brokerage contribution"
+        },
+        {
+          "transactionId": 364,
+          "date": "2025-07-20",
+          "amount": -250,
+          "fromAmount": 250,
+          "toAmount": 250,
+          "description": "Brokerage contribution"
+        },
+        {
+          "transactionId": 423,
+          "date": "2025-08-20",
+          "amount": -250,
+          "fromAmount": 250,
+          "toAmount": 250,
+          "description": "Brokerage contribution"
+        },
+        {
+          "transactionId": 479,
+          "date": "2025-09-20",
+          "amount": -250,
+          "fromAmount": 250,
+          "toAmount": 250,
+          "description": "Brokerage contribution"
+        },
+        {
+          "transactionId": 534,
+          "date": "2025-10-20",
+          "amount": -250,
+          "fromAmount": 250,
+          "toAmount": 250,
+          "description": "Brokerage contribution"
+        },
+        {
+          "transactionId": 590,
+          "date": "2025-11-20",
+          "amount": -250,
+          "fromAmount": 250,
+          "toAmount": 250,
+          "description": "Brokerage contribution"
+        },
+        {
+          "transactionId": 650,
+          "date": "2025-12-20",
+          "amount": -250,
+          "fromAmount": 250,
+          "toAmount": 250,
+          "description": "Brokerage contribution"
+        },
+        {
+          "transactionId": 709,
+          "date": "2026-01-20",
+          "amount": -250,
+          "fromAmount": 250,
+          "toAmount": 250,
+          "description": "Brokerage contribution"
+        },
+        {
+          "transactionId": 765,
+          "date": "2026-02-20",
+          "amount": -250,
+          "fromAmount": 250,
+          "toAmount": 250,
+          "description": "Brokerage contribution"
+        },
+        {
+          "transactionId": 823,
+          "date": "2026-03-20",
+          "amount": -250,
+          "fromAmount": 250,
+          "toAmount": 250,
+          "description": "Brokerage contribution"
+        },
+        {
+          "transactionId": 878,
+          "date": "2026-04-20",
+          "amount": -250,
+          "fromAmount": 250,
+          "toAmount": 250,
+          "description": "Brokerage contribution"
+        },
+        {
+          "transactionId": 936,
+          "date": "2026-05-20",
+          "amount": -250,
+          "fromAmount": 250,
+          "toAmount": 250,
+          "description": "Brokerage contribution"
+        },
+        {
+          "transactionId": 993,
+          "date": "2026-06-20",
+          "amount": -250,
+          "fromAmount": 250,
+          "toAmount": 250,
+          "description": "Brokerage contribution"
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "amount": -79.99,
+      "fromAmount": 79.99,
+      "toAmount": 0,
+      "type": "expense",
+      "description": "Fiber internet",
+      "section": "Home",
+      "category": "🌐Internet",
+      "contact": "Verizon Fios",
+      "fromAccount": "Chase Checking",
+      "toAccount": "",
+      "tags": [
+        "fixed-cost"
+      ],
+      "isRecurring": true,
+      "repeatUnit": "month",
+      "repeatInterval": 1,
+      "monthdays": [
+        5
+      ],
+      "weekdays": [],
+      "nthWeek": null,
+      "nthWeekday": null,
+      "yearMonths": [],
+      "recurrenceType": "monthdays",
+      "recurrencePreset": "monthly",
+      "startDate": "2025-01-01",
+      "nextDate": "2026-07-05",
+      "lastDate": "2026-06-05",
+      "endDate": null,
+      "maxOccurrences": null,
+      "occurrencesCount": 18,
+      "occurrences": [
+        {
+          "transactionId": 12,
+          "date": "2025-01-05",
+          "amount": -79.99,
+          "fromAmount": 79.99,
+          "toAmount": 0,
+          "description": "Fiber internet"
+        },
+        {
+          "transactionId": 68,
+          "date": "2025-02-05",
+          "amount": -79.99,
+          "fromAmount": 79.99,
+          "toAmount": 0,
+          "description": "Fiber internet"
+        },
+        {
+          "transactionId": 125,
+          "date": "2025-03-05",
+          "amount": -79.99,
+          "fromAmount": 79.99,
+          "toAmount": 0,
+          "description": "Fiber internet"
+        },
+        {
+          "transactionId": 184,
+          "date": "2025-04-05",
+          "amount": -79.99,
+          "fromAmount": 79.99,
+          "toAmount": 0,
+          "description": "Fiber internet"
+        },
+        {
+          "transactionId": 243,
+          "date": "2025-05-05",
+          "amount": -79.99,
+          "fromAmount": 79.99,
+          "toAmount": 0,
+          "description": "Fiber internet"
+        },
+        {
+          "transactionId": 301,
+          "date": "2025-06-05",
+          "amount": -79.99,
+          "fromAmount": 79.99,
+          "toAmount": 0,
+          "description": "Fiber internet"
+        },
+        {
+          "transactionId": 357,
+          "date": "2025-07-05",
+          "amount": -79.99,
+          "fromAmount": 79.99,
+          "toAmount": 0,
+          "description": "Fiber internet"
+        },
+        {
+          "transactionId": 416,
+          "date": "2025-08-05",
+          "amount": -79.99,
+          "fromAmount": 79.99,
+          "toAmount": 0,
+          "description": "Fiber internet"
+        },
+        {
+          "transactionId": 472,
+          "date": "2025-09-05",
+          "amount": -79.99,
+          "fromAmount": 79.99,
+          "toAmount": 0,
+          "description": "Fiber internet"
+        },
+        {
+          "transactionId": 527,
+          "date": "2025-10-05",
+          "amount": -79.99,
+          "fromAmount": 79.99,
+          "toAmount": 0,
+          "description": "Fiber internet"
+        },
+        {
+          "transactionId": 583,
+          "date": "2025-11-05",
+          "amount": -79.99,
+          "fromAmount": 79.99,
+          "toAmount": 0,
+          "description": "Fiber internet"
+        },
+        {
+          "transactionId": 643,
+          "date": "2025-12-05",
+          "amount": -79.99,
+          "fromAmount": 79.99,
+          "toAmount": 0,
+          "description": "Fiber internet"
+        },
+        {
+          "transactionId": 702,
+          "date": "2026-01-05",
+          "amount": -79.99,
+          "fromAmount": 79.99,
+          "toAmount": 0,
+          "description": "Fiber internet"
+        },
+        {
+          "transactionId": 758,
+          "date": "2026-02-05",
+          "amount": -79.99,
+          "fromAmount": 79.99,
+          "toAmount": 0,
+          "description": "Fiber internet"
+        },
+        {
+          "transactionId": 816,
+          "date": "2026-03-05",
+          "amount": -79.99,
+          "fromAmount": 79.99,
+          "toAmount": 0,
+          "description": "Fiber internet"
+        },
+        {
+          "transactionId": 871,
+          "date": "2026-04-05",
+          "amount": -79.99,
+          "fromAmount": 79.99,
+          "toAmount": 0,
+          "description": "Fiber internet"
+        },
+        {
+          "transactionId": 929,
+          "date": "2026-05-05",
+          "amount": -79.99,
+          "fromAmount": 79.99,
+          "toAmount": 0,
+          "description": "Fiber internet"
+        },
+        {
+          "transactionId": 986,
+          "date": "2026-06-05",
+          "amount": -79.99,
+          "fromAmount": 79.99,
+          "toAmount": 0,
+          "description": "Fiber internet"
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "amount": -62.5,
+      "fromAmount": 62.5,
+      "toAmount": 0,
+      "type": "expense",
+      "description": "Mobile phone plan",
+      "section": "Home",
+      "category": "📱Phone",
+      "contact": "T-Mobile",
+      "fromAccount": "Apple Card",
+      "toAccount": "",
+      "tags": [
+        "fixed-cost"
+      ],
+      "isRecurring": true,
+      "repeatUnit": "month",
+      "repeatInterval": 1,
+      "monthdays": [
+        6
+      ],
+      "weekdays": [],
+      "nthWeek": null,
+      "nthWeekday": null,
+      "yearMonths": [],
+      "recurrenceType": "monthdays",
+      "recurrencePreset": "monthly",
+      "startDate": "2025-01-01",
+      "nextDate": "2026-07-06",
+      "lastDate": "2026-06-06",
+      "endDate": null,
+      "maxOccurrences": null,
+      "occurrencesCount": 18,
+      "occurrences": [
+        {
+          "transactionId": 13,
+          "date": "2025-01-06",
+          "amount": -62.5,
+          "fromAmount": 62.5,
+          "toAmount": 0,
+          "description": "Mobile phone plan"
+        },
+        {
+          "transactionId": 69,
+          "date": "2025-02-06",
+          "amount": -62.5,
+          "fromAmount": 62.5,
+          "toAmount": 0,
+          "description": "Mobile phone plan"
+        },
+        {
+          "transactionId": 126,
+          "date": "2025-03-06",
+          "amount": -62.5,
+          "fromAmount": 62.5,
+          "toAmount": 0,
+          "description": "Mobile phone plan"
+        },
+        {
+          "transactionId": 185,
+          "date": "2025-04-06",
+          "amount": -62.5,
+          "fromAmount": 62.5,
+          "toAmount": 0,
+          "description": "Mobile phone plan"
+        },
+        {
+          "transactionId": 244,
+          "date": "2025-05-06",
+          "amount": -62.5,
+          "fromAmount": 62.5,
+          "toAmount": 0,
+          "description": "Mobile phone plan"
+        },
+        {
+          "transactionId": 302,
+          "date": "2025-06-06",
+          "amount": -62.5,
+          "fromAmount": 62.5,
+          "toAmount": 0,
+          "description": "Mobile phone plan"
+        },
+        {
+          "transactionId": 358,
+          "date": "2025-07-06",
+          "amount": -62.5,
+          "fromAmount": 62.5,
+          "toAmount": 0,
+          "description": "Mobile phone plan"
+        },
+        {
+          "transactionId": 417,
+          "date": "2025-08-06",
+          "amount": -62.5,
+          "fromAmount": 62.5,
+          "toAmount": 0,
+          "description": "Mobile phone plan"
+        },
+        {
+          "transactionId": 473,
+          "date": "2025-09-06",
+          "amount": -62.5,
+          "fromAmount": 62.5,
+          "toAmount": 0,
+          "description": "Mobile phone plan"
+        },
+        {
+          "transactionId": 528,
+          "date": "2025-10-06",
+          "amount": -62.5,
+          "fromAmount": 62.5,
+          "toAmount": 0,
+          "description": "Mobile phone plan"
+        },
+        {
+          "transactionId": 584,
+          "date": "2025-11-06",
+          "amount": -62.5,
+          "fromAmount": 62.5,
+          "toAmount": 0,
+          "description": "Mobile phone plan"
+        },
+        {
+          "transactionId": 644,
+          "date": "2025-12-06",
+          "amount": -62.5,
+          "fromAmount": 62.5,
+          "toAmount": 0,
+          "description": "Mobile phone plan"
+        },
+        {
+          "transactionId": 703,
+          "date": "2026-01-06",
+          "amount": -62.5,
+          "fromAmount": 62.5,
+          "toAmount": 0,
+          "description": "Mobile phone plan"
+        },
+        {
+          "transactionId": 759,
+          "date": "2026-02-06",
+          "amount": -62.5,
+          "fromAmount": 62.5,
+          "toAmount": 0,
+          "description": "Mobile phone plan"
+        },
+        {
+          "transactionId": 817,
+          "date": "2026-03-06",
+          "amount": -62.5,
+          "fromAmount": 62.5,
+          "toAmount": 0,
+          "description": "Mobile phone plan"
+        },
+        {
+          "transactionId": 872,
+          "date": "2026-04-06",
+          "amount": -62.5,
+          "fromAmount": 62.5,
+          "toAmount": 0,
+          "description": "Mobile phone plan"
+        },
+        {
+          "transactionId": 930,
+          "date": "2026-05-06",
+          "amount": -62.5,
+          "fromAmount": 62.5,
+          "toAmount": 0,
+          "description": "Mobile phone plan"
+        },
+        {
+          "transactionId": 987,
+          "date": "2026-06-06",
+          "amount": -62.5,
+          "fromAmount": 62.5,
+          "toAmount": 0,
+          "description": "Mobile phone plan"
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "amount": -150,
+      "fromAmount": 150,
+      "toAmount": 0,
+      "type": "expense",
+      "description": "Electric utility bill",
+      "section": "Home",
+      "category": "💡Utilities",
+      "contact": "Con Edison",
+      "fromAccount": "Chase Checking",
+      "toAccount": "",
+      "tags": [
+        "fixed-cost",
+        "summer-peak"
+      ],
+      "isRecurring": true,
+      "repeatUnit": "month",
+      "repeatInterval": 1,
+      "monthdays": [
+        8
+      ],
+      "weekdays": [],
+      "nthWeek": null,
+      "nthWeekday": null,
+      "yearMonths": [],
+      "recurrenceType": "monthdays",
+      "recurrencePreset": "monthly",
+      "startDate": "2025-01-01",
+      "nextDate": "2026-07-08",
+      "lastDate": "2026-06-08",
+      "endDate": null,
+      "maxOccurrences": null,
+      "occurrencesCount": 18,
+      "occurrences": [
+        {
+          "transactionId": 14,
+          "date": "2025-01-08",
+          "amount": -91.89,
+          "fromAmount": 91.89,
+          "toAmount": 0,
+          "description": "Electric utility bill"
+        },
+        {
+          "transactionId": 70,
+          "date": "2025-02-08",
+          "amount": -131.33,
+          "fromAmount": 131.33,
+          "toAmount": 0,
+          "description": "Electric utility bill"
+        },
+        {
+          "transactionId": 127,
+          "date": "2025-03-08",
+          "amount": -143.26,
+          "fromAmount": 143.26,
+          "toAmount": 0,
+          "description": "Electric utility bill"
+        },
+        {
+          "transactionId": 186,
+          "date": "2025-04-08",
+          "amount": -131.33,
+          "fromAmount": 131.33,
+          "toAmount": 0,
+          "description": "Electric utility bill"
+        },
+        {
+          "transactionId": 245,
+          "date": "2025-05-08",
+          "amount": -135.32,
+          "fromAmount": 135.32,
+          "toAmount": 0,
+          "description": "Electric utility bill"
+        },
+        {
+          "transactionId": 303,
+          "date": "2025-06-08",
+          "amount": -178.04,
+          "fromAmount": 178.04,
+          "toAmount": 0,
+          "description": "Electric utility bill"
+        },
+        {
+          "transactionId": 359,
+          "date": "2025-07-08",
+          "amount": -184.34,
+          "fromAmount": 184.34,
+          "toAmount": 0,
+          "description": "Electric utility bill"
+        },
+        {
+          "transactionId": 418,
+          "date": "2025-08-08",
+          "amount": -198.49,
+          "fromAmount": 198.49,
+          "toAmount": 0,
+          "description": "Electric utility bill"
+        },
+        {
+          "transactionId": 474,
+          "date": "2025-09-08",
+          "amount": -166.3,
+          "fromAmount": 166.3,
+          "toAmount": 0,
+          "description": "Electric utility bill"
+        },
+        {
+          "transactionId": 529,
+          "date": "2025-10-08",
+          "amount": -101.3,
+          "fromAmount": 101.3,
+          "toAmount": 0,
+          "description": "Electric utility bill"
+        },
+        {
+          "transactionId": 585,
+          "date": "2025-11-08",
+          "amount": -98.73,
+          "fromAmount": 98.73,
+          "toAmount": 0,
+          "description": "Electric utility bill"
+        },
+        {
+          "transactionId": 645,
+          "date": "2025-12-08",
+          "amount": -105.35,
+          "fromAmount": 105.35,
+          "toAmount": 0,
+          "description": "Electric utility bill"
+        },
+        {
+          "transactionId": 704,
+          "date": "2026-01-08",
+          "amount": -89.55,
+          "fromAmount": 89.55,
+          "toAmount": 0,
+          "description": "Electric utility bill"
+        },
+        {
+          "transactionId": 760,
+          "date": "2026-02-08",
+          "amount": -110.53,
+          "fromAmount": 110.53,
+          "toAmount": 0,
+          "description": "Electric utility bill"
+        },
+        {
+          "transactionId": 818,
+          "date": "2026-03-08",
+          "amount": -91.76,
+          "fromAmount": 91.76,
+          "toAmount": 0,
+          "description": "Electric utility bill"
+        },
+        {
+          "transactionId": 873,
+          "date": "2026-04-08",
+          "amount": -100.74,
+          "fromAmount": 100.74,
+          "toAmount": 0,
+          "description": "Electric utility bill"
+        },
+        {
+          "transactionId": 931,
+          "date": "2026-05-08",
+          "amount": -93.37,
+          "fromAmount": 93.37,
+          "toAmount": 0,
+          "description": "Electric utility bill"
+        },
+        {
+          "transactionId": 988,
+          "date": "2026-06-08",
+          "amount": -164.12,
+          "fromAmount": 164.12,
+          "toAmount": 0,
+          "description": "Electric utility bill"
+        }
+      ]
+    },
+    {
+      "id": 10,
+      "amount": -55,
+      "fromAmount": 55,
+      "toAmount": 0,
+      "type": "expense",
+      "description": "Natural gas bill",
+      "section": "Home",
+      "category": "💡Utilities",
+      "contact": "National Grid",
+      "fromAccount": "Chase Checking",
+      "toAccount": "",
+      "tags": [
+        "fixed-cost",
+        "winter-peak"
+      ],
+      "isRecurring": true,
+      "repeatUnit": "month",
+      "repeatInterval": 1,
+      "monthdays": [
+        10
+      ],
+      "weekdays": [],
+      "nthWeek": null,
+      "nthWeekday": null,
+      "yearMonths": [],
+      "recurrenceType": "monthdays",
+      "recurrencePreset": "monthly",
+      "startDate": "2025-01-01",
+      "nextDate": "2026-07-10",
+      "lastDate": "2026-06-10",
+      "endDate": null,
+      "maxOccurrences": null,
+      "occurrencesCount": 18,
+      "occurrences": [
+        {
+          "transactionId": 15,
+          "date": "2025-01-10",
+          "amount": -130.78,
+          "fromAmount": 130.78,
+          "toAmount": 0,
+          "description": "Natural gas bill"
+        },
+        {
+          "transactionId": 71,
+          "date": "2025-02-10",
+          "amount": -100.82,
+          "fromAmount": 100.82,
+          "toAmount": 0,
+          "description": "Natural gas bill"
+        },
+        {
+          "transactionId": 128,
+          "date": "2025-03-10",
+          "amount": -113.6,
+          "fromAmount": 113.6,
+          "toAmount": 0,
+          "description": "Natural gas bill"
+        },
+        {
+          "transactionId": 187,
+          "date": "2025-04-10",
+          "amount": -52.76,
+          "fromAmount": 52.76,
+          "toAmount": 0,
+          "description": "Natural gas bill"
+        },
+        {
+          "transactionId": 246,
+          "date": "2025-05-10",
+          "amount": -41.83,
+          "fromAmount": 41.83,
+          "toAmount": 0,
+          "description": "Natural gas bill"
+        },
+        {
+          "transactionId": 304,
+          "date": "2025-06-10",
+          "amount": -36.35,
+          "fromAmount": 36.35,
+          "toAmount": 0,
+          "description": "Natural gas bill"
+        },
+        {
+          "transactionId": 360,
+          "date": "2025-07-10",
+          "amount": -39.57,
+          "fromAmount": 39.57,
+          "toAmount": 0,
+          "description": "Natural gas bill"
+        },
+        {
+          "transactionId": 419,
+          "date": "2025-08-10",
+          "amount": -28.11,
+          "fromAmount": 28.11,
+          "toAmount": 0,
+          "description": "Natural gas bill"
+        },
+        {
+          "transactionId": 475,
+          "date": "2025-09-10",
+          "amount": -53.72,
+          "fromAmount": 53.72,
+          "toAmount": 0,
+          "description": "Natural gas bill"
+        },
+        {
+          "transactionId": 530,
+          "date": "2025-10-10",
+          "amount": -42.24,
+          "fromAmount": 42.24,
+          "toAmount": 0,
+          "description": "Natural gas bill"
+        },
+        {
+          "transactionId": 586,
+          "date": "2025-11-10",
+          "amount": -157.75,
+          "fromAmount": 157.75,
+          "toAmount": 0,
+          "description": "Natural gas bill"
+        },
+        {
+          "transactionId": 646,
+          "date": "2025-12-10",
+          "amount": -162.48,
+          "fromAmount": 162.48,
+          "toAmount": 0,
+          "description": "Natural gas bill"
+        },
+        {
+          "transactionId": 705,
+          "date": "2026-01-10",
+          "amount": -106.06,
+          "fromAmount": 106.06,
+          "toAmount": 0,
+          "description": "Natural gas bill"
+        },
+        {
+          "transactionId": 761,
+          "date": "2026-02-10",
+          "amount": -153.4,
+          "fromAmount": 153.4,
+          "toAmount": 0,
+          "description": "Natural gas bill"
+        },
+        {
+          "transactionId": 819,
+          "date": "2026-03-10",
+          "amount": -162.69,
+          "fromAmount": 162.69,
+          "toAmount": 0,
+          "description": "Natural gas bill"
+        },
+        {
+          "transactionId": 874,
+          "date": "2026-04-10",
+          "amount": -41.1,
+          "fromAmount": 41.1,
+          "toAmount": 0,
+          "description": "Natural gas bill"
+        },
+        {
+          "transactionId": 932,
+          "date": "2026-05-10",
+          "amount": -42.92,
+          "fromAmount": 42.92,
+          "toAmount": 0,
+          "description": "Natural gas bill"
+        },
+        {
+          "transactionId": 989,
+          "date": "2026-06-10",
+          "amount": -33.21,
+          "fromAmount": 33.21,
+          "toAmount": 0,
+          "description": "Natural gas bill"
+        }
+      ]
+    },
+    {
+      "id": 11,
+      "amount": -185.64,
+      "fromAmount": 185.64,
+      "toAmount": 0,
+      "type": "expense",
+      "description": "Health insurance premium",
+      "section": "Health",
+      "category": "🛡️Health Insurance",
+      "contact": "Blue Cross Blue Shield",
+      "fromAccount": "Chase Checking",
+      "toAccount": "",
+      "tags": [
+        "fixed-cost"
+      ],
+      "isRecurring": true,
+      "repeatUnit": "month",
+      "repeatInterval": 1,
+      "monthdays": [
+        3
+      ],
+      "weekdays": [],
+      "nthWeek": null,
+      "nthWeekday": null,
+      "yearMonths": [],
+      "recurrenceType": "monthdays",
+      "recurrencePreset": "monthly",
+      "startDate": "2025-01-01",
+      "nextDate": "2026-07-03",
+      "lastDate": "2026-06-03",
+      "endDate": null,
+      "maxOccurrences": null,
+      "occurrencesCount": 18,
+      "occurrences": [
+        {
+          "transactionId": 11,
+          "date": "2025-01-03",
+          "amount": -185.64,
+          "fromAmount": 185.64,
+          "toAmount": 0,
+          "description": "Health insurance premium"
+        },
+        {
+          "transactionId": 67,
+          "date": "2025-02-03",
+          "amount": -185.64,
+          "fromAmount": 185.64,
+          "toAmount": 0,
+          "description": "Health insurance premium"
+        },
+        {
+          "transactionId": 124,
+          "date": "2025-03-03",
+          "amount": -185.64,
+          "fromAmount": 185.64,
+          "toAmount": 0,
+          "description": "Health insurance premium"
+        },
+        {
+          "transactionId": 183,
+          "date": "2025-04-03",
+          "amount": -185.64,
+          "fromAmount": 185.64,
+          "toAmount": 0,
+          "description": "Health insurance premium"
+        },
+        {
+          "transactionId": 242,
+          "date": "2025-05-03",
+          "amount": -185.64,
+          "fromAmount": 185.64,
+          "toAmount": 0,
+          "description": "Health insurance premium"
+        },
+        {
+          "transactionId": 300,
+          "date": "2025-06-03",
+          "amount": -185.64,
+          "fromAmount": 185.64,
+          "toAmount": 0,
+          "description": "Health insurance premium"
+        },
+        {
+          "transactionId": 356,
+          "date": "2025-07-03",
+          "amount": -185.64,
+          "fromAmount": 185.64,
+          "toAmount": 0,
+          "description": "Health insurance premium"
+        },
+        {
+          "transactionId": 415,
+          "date": "2025-08-03",
+          "amount": -185.64,
+          "fromAmount": 185.64,
+          "toAmount": 0,
+          "description": "Health insurance premium"
+        },
+        {
+          "transactionId": 471,
+          "date": "2025-09-03",
+          "amount": -185.64,
+          "fromAmount": 185.64,
+          "toAmount": 0,
+          "description": "Health insurance premium"
+        },
+        {
+          "transactionId": 526,
+          "date": "2025-10-03",
+          "amount": -185.64,
+          "fromAmount": 185.64,
+          "toAmount": 0,
+          "description": "Health insurance premium"
+        },
+        {
+          "transactionId": 582,
+          "date": "2025-11-03",
+          "amount": -185.64,
+          "fromAmount": 185.64,
+          "toAmount": 0,
+          "description": "Health insurance premium"
+        },
+        {
+          "transactionId": 642,
+          "date": "2025-12-03",
+          "amount": -185.64,
+          "fromAmount": 185.64,
+          "toAmount": 0,
+          "description": "Health insurance premium"
+        },
+        {
+          "transactionId": 701,
+          "date": "2026-01-03",
+          "amount": -185.64,
+          "fromAmount": 185.64,
+          "toAmount": 0,
+          "description": "Health insurance premium"
+        },
+        {
+          "transactionId": 757,
+          "date": "2026-02-03",
+          "amount": -185.64,
+          "fromAmount": 185.64,
+          "toAmount": 0,
+          "description": "Health insurance premium"
+        },
+        {
+          "transactionId": 815,
+          "date": "2026-03-03",
+          "amount": -185.64,
+          "fromAmount": 185.64,
+          "toAmount": 0,
+          "description": "Health insurance premium"
+        },
+        {
+          "transactionId": 870,
+          "date": "2026-04-03",
+          "amount": -185.64,
+          "fromAmount": 185.64,
+          "toAmount": 0,
+          "description": "Health insurance premium"
+        },
+        {
+          "transactionId": 928,
+          "date": "2026-05-03",
+          "amount": -185.64,
+          "fromAmount": 185.64,
+          "toAmount": 0,
+          "description": "Health insurance premium"
+        },
+        {
+          "transactionId": 985,
+          "date": "2026-06-03",
+          "amount": -185.64,
+          "fromAmount": 185.64,
+          "toAmount": 0,
+          "description": "Health insurance premium"
+        }
+      ]
+    },
+    {
+      "id": 12,
+      "amount": -132.4,
+      "fromAmount": 132.4,
+      "toAmount": 0,
+      "type": "expense",
+      "description": "Auto insurance",
+      "section": "Transportation",
+      "category": "🛡️Car Insurance",
+      "contact": "GEICO",
+      "fromAccount": "Chase Checking",
+      "toAccount": "",
+      "tags": [
+        "fixed-cost"
+      ],
+      "isRecurring": true,
+      "repeatUnit": "month",
+      "repeatInterval": 1,
+      "monthdays": [
+        12
+      ],
+      "weekdays": [],
+      "nthWeek": null,
+      "nthWeekday": null,
+      "yearMonths": [],
+      "recurrenceType": "monthdays",
+      "recurrencePreset": "monthly",
+      "startDate": "2025-01-01",
+      "nextDate": "2026-07-12",
+      "lastDate": "2026-06-12",
+      "endDate": null,
+      "maxOccurrences": null,
+      "occurrencesCount": 18,
+      "occurrences": [
+        {
+          "transactionId": 16,
+          "date": "2025-01-12",
+          "amount": -132.4,
+          "fromAmount": 132.4,
+          "toAmount": 0,
+          "description": "Auto insurance"
+        },
+        {
+          "transactionId": 72,
+          "date": "2025-02-12",
+          "amount": -132.4,
+          "fromAmount": 132.4,
+          "toAmount": 0,
+          "description": "Auto insurance"
+        },
+        {
+          "transactionId": 129,
+          "date": "2025-03-12",
+          "amount": -132.4,
+          "fromAmount": 132.4,
+          "toAmount": 0,
+          "description": "Auto insurance"
+        },
+        {
+          "transactionId": 188,
+          "date": "2025-04-12",
+          "amount": -132.4,
+          "fromAmount": 132.4,
+          "toAmount": 0,
+          "description": "Auto insurance"
+        },
+        {
+          "transactionId": 247,
+          "date": "2025-05-12",
+          "amount": -132.4,
+          "fromAmount": 132.4,
+          "toAmount": 0,
+          "description": "Auto insurance"
+        },
+        {
+          "transactionId": 305,
+          "date": "2025-06-12",
+          "amount": -132.4,
+          "fromAmount": 132.4,
+          "toAmount": 0,
+          "description": "Auto insurance"
+        },
+        {
+          "transactionId": 361,
+          "date": "2025-07-12",
+          "amount": -132.4,
+          "fromAmount": 132.4,
+          "toAmount": 0,
+          "description": "Auto insurance"
+        },
+        {
+          "transactionId": 420,
+          "date": "2025-08-12",
+          "amount": -132.4,
+          "fromAmount": 132.4,
+          "toAmount": 0,
+          "description": "Auto insurance"
+        },
+        {
+          "transactionId": 476,
+          "date": "2025-09-12",
+          "amount": -132.4,
+          "fromAmount": 132.4,
+          "toAmount": 0,
+          "description": "Auto insurance"
+        },
+        {
+          "transactionId": 531,
+          "date": "2025-10-12",
+          "amount": -132.4,
+          "fromAmount": 132.4,
+          "toAmount": 0,
+          "description": "Auto insurance"
+        },
+        {
+          "transactionId": 587,
+          "date": "2025-11-12",
+          "amount": -132.4,
+          "fromAmount": 132.4,
+          "toAmount": 0,
+          "description": "Auto insurance"
+        },
+        {
+          "transactionId": 647,
+          "date": "2025-12-12",
+          "amount": -132.4,
+          "fromAmount": 132.4,
+          "toAmount": 0,
+          "description": "Auto insurance"
+        },
+        {
+          "transactionId": 706,
+          "date": "2026-01-12",
+          "amount": -132.4,
+          "fromAmount": 132.4,
+          "toAmount": 0,
+          "description": "Auto insurance"
+        },
+        {
+          "transactionId": 762,
+          "date": "2026-02-12",
+          "amount": -132.4,
+          "fromAmount": 132.4,
+          "toAmount": 0,
+          "description": "Auto insurance"
+        },
+        {
+          "transactionId": 820,
+          "date": "2026-03-12",
+          "amount": -132.4,
+          "fromAmount": 132.4,
+          "toAmount": 0,
+          "description": "Auto insurance"
+        },
+        {
+          "transactionId": 875,
+          "date": "2026-04-12",
+          "amount": -132.4,
+          "fromAmount": 132.4,
+          "toAmount": 0,
+          "description": "Auto insurance"
+        },
+        {
+          "transactionId": 933,
+          "date": "2026-05-12",
+          "amount": -132.4,
+          "fromAmount": 132.4,
+          "toAmount": 0,
+          "description": "Auto insurance"
+        },
+        {
+          "transactionId": 990,
+          "date": "2026-06-12",
+          "amount": -132.4,
+          "fromAmount": 132.4,
+          "toAmount": 0,
+          "description": "Auto insurance"
+        }
+      ]
+    },
+    {
+      "id": 13,
+      "amount": -425,
+      "fromAmount": 425,
+      "toAmount": 425,
+      "type": "expense",
+      "description": "Auto loan payment",
+      "section": "Transportation",
+      "category": "🚗Auto Loan",
+      "contact": "Capital One Auto Finance",
+      "fromAccount": "Chase Checking",
+      "toAccount": "Capital One Auto Loan",
+      "tags": [
+        "fixed-cost"
+      ],
+      "isRecurring": true,
+      "repeatUnit": "month",
+      "repeatInterval": 1,
+      "monthdays": [
+        16
+      ],
+      "weekdays": [],
+      "nthWeek": null,
+      "nthWeekday": null,
+      "yearMonths": [],
+      "recurrenceType": "monthdays",
+      "recurrencePreset": "monthly",
+      "startDate": "2025-01-01",
+      "nextDate": "2026-07-16",
+      "lastDate": "2026-06-16",
+      "endDate": "2027-02-01",
+      "maxOccurrences": null,
+      "occurrencesCount": 18,
+      "occurrences": [
+        {
+          "transactionId": 17,
+          "date": "2025-01-16",
+          "amount": -425,
+          "fromAmount": 425,
+          "toAmount": 425,
+          "description": "Auto loan payment"
+        },
+        {
+          "transactionId": 73,
+          "date": "2025-02-16",
+          "amount": -425,
+          "fromAmount": 425,
+          "toAmount": 425,
+          "description": "Auto loan payment"
+        },
+        {
+          "transactionId": 130,
+          "date": "2025-03-16",
+          "amount": -425,
+          "fromAmount": 425,
+          "toAmount": 425,
+          "description": "Auto loan payment"
+        },
+        {
+          "transactionId": 189,
+          "date": "2025-04-16",
+          "amount": -425,
+          "fromAmount": 425,
+          "toAmount": 425,
+          "description": "Auto loan payment"
+        },
+        {
+          "transactionId": 248,
+          "date": "2025-05-16",
+          "amount": -425,
+          "fromAmount": 425,
+          "toAmount": 425,
+          "description": "Auto loan payment"
+        },
+        {
+          "transactionId": 306,
+          "date": "2025-06-16",
+          "amount": -425,
+          "fromAmount": 425,
+          "toAmount": 425,
+          "description": "Auto loan payment"
+        },
+        {
+          "transactionId": 362,
+          "date": "2025-07-16",
+          "amount": -425,
+          "fromAmount": 425,
+          "toAmount": 425,
+          "description": "Auto loan payment"
+        },
+        {
+          "transactionId": 421,
+          "date": "2025-08-16",
+          "amount": -425,
+          "fromAmount": 425,
+          "toAmount": 425,
+          "description": "Auto loan payment"
+        },
+        {
+          "transactionId": 477,
+          "date": "2025-09-16",
+          "amount": -425,
+          "fromAmount": 425,
+          "toAmount": 425,
+          "description": "Auto loan payment"
+        },
+        {
+          "transactionId": 532,
+          "date": "2025-10-16",
+          "amount": -425,
+          "fromAmount": 425,
+          "toAmount": 425,
+          "description": "Auto loan payment"
+        },
+        {
+          "transactionId": 588,
+          "date": "2025-11-16",
+          "amount": -425,
+          "fromAmount": 425,
+          "toAmount": 425,
+          "description": "Auto loan payment"
+        },
+        {
+          "transactionId": 648,
+          "date": "2025-12-16",
+          "amount": -425,
+          "fromAmount": 425,
+          "toAmount": 425,
+          "description": "Auto loan payment"
+        },
+        {
+          "transactionId": 707,
+          "date": "2026-01-16",
+          "amount": -425,
+          "fromAmount": 425,
+          "toAmount": 425,
+          "description": "Auto loan payment"
+        },
+        {
+          "transactionId": 763,
+          "date": "2026-02-16",
+          "amount": -425,
+          "fromAmount": 425,
+          "toAmount": 425,
+          "description": "Auto loan payment"
+        },
+        {
+          "transactionId": 821,
+          "date": "2026-03-16",
+          "amount": -425,
+          "fromAmount": 425,
+          "toAmount": 425,
+          "description": "Auto loan payment"
+        },
+        {
+          "transactionId": 876,
+          "date": "2026-04-16",
+          "amount": -425,
+          "fromAmount": 425,
+          "toAmount": 425,
+          "description": "Auto loan payment"
+        },
+        {
+          "transactionId": 934,
+          "date": "2026-05-16",
+          "amount": -425,
+          "fromAmount": 425,
+          "toAmount": 425,
+          "description": "Auto loan payment"
+        },
+        {
+          "transactionId": 991,
+          "date": "2026-06-16",
+          "amount": -425,
+          "fromAmount": 425,
+          "toAmount": 425,
+          "description": "Auto loan payment"
+        }
+      ]
+    },
+    {
+      "id": 14,
+      "amount": -18.99,
+      "fromAmount": 18.99,
+      "toAmount": 0,
+      "type": "expense",
+      "description": "Netflix subscription",
+      "section": "Lifestyle",
+      "category": "🔁Streaming",
+      "contact": "Netflix",
+      "fromAccount": "Apple Card",
+      "toAccount": "",
+      "tags": [
+        "subscription"
+      ],
+      "isRecurring": true,
+      "repeatUnit": "month",
+      "repeatInterval": 1,
+      "monthdays": [
+        11
+      ],
+      "weekdays": [],
+      "nthWeek": null,
+      "nthWeekday": null,
+      "yearMonths": [],
+      "recurrenceType": "monthdays",
+      "recurrencePreset": "monthly",
+      "startDate": "2025-01-01",
+      "nextDate": "2026-07-11",
+      "lastDate": "2026-06-11",
+      "endDate": null,
+      "maxOccurrences": null,
+      "occurrencesCount": 18,
+      "occurrences": [
+        {
+          "transactionId": 20,
+          "date": "2025-01-11",
+          "amount": -18.99,
+          "fromAmount": 18.99,
+          "toAmount": 0,
+          "description": "Netflix subscription"
+        },
+        {
+          "transactionId": 76,
+          "date": "2025-02-11",
+          "amount": -18.99,
+          "fromAmount": 18.99,
+          "toAmount": 0,
+          "description": "Netflix subscription"
+        },
+        {
+          "transactionId": 133,
+          "date": "2025-03-11",
+          "amount": -18.99,
+          "fromAmount": 18.99,
+          "toAmount": 0,
+          "description": "Netflix subscription"
+        },
+        {
+          "transactionId": 192,
+          "date": "2025-04-11",
+          "amount": -18.99,
+          "fromAmount": 18.99,
+          "toAmount": 0,
+          "description": "Netflix subscription"
+        },
+        {
+          "transactionId": 251,
+          "date": "2025-05-11",
+          "amount": -18.99,
+          "fromAmount": 18.99,
+          "toAmount": 0,
+          "description": "Netflix subscription"
+        },
+        {
+          "transactionId": 309,
+          "date": "2025-06-11",
+          "amount": -18.99,
+          "fromAmount": 18.99,
+          "toAmount": 0,
+          "description": "Netflix subscription"
+        },
+        {
+          "transactionId": 365,
+          "date": "2025-07-11",
+          "amount": -18.99,
+          "fromAmount": 18.99,
+          "toAmount": 0,
+          "description": "Netflix subscription"
+        },
+        {
+          "transactionId": 424,
+          "date": "2025-08-11",
+          "amount": -18.99,
+          "fromAmount": 18.99,
+          "toAmount": 0,
+          "description": "Netflix subscription"
+        },
+        {
+          "transactionId": 480,
+          "date": "2025-09-11",
+          "amount": -18.99,
+          "fromAmount": 18.99,
+          "toAmount": 0,
+          "description": "Netflix subscription"
+        },
+        {
+          "transactionId": 535,
+          "date": "2025-10-11",
+          "amount": -18.99,
+          "fromAmount": 18.99,
+          "toAmount": 0,
+          "description": "Netflix subscription"
+        },
+        {
+          "transactionId": 591,
+          "date": "2025-11-11",
+          "amount": -18.99,
+          "fromAmount": 18.99,
+          "toAmount": 0,
+          "description": "Netflix subscription"
+        },
+        {
+          "transactionId": 651,
+          "date": "2025-12-11",
+          "amount": -18.99,
+          "fromAmount": 18.99,
+          "toAmount": 0,
+          "description": "Netflix subscription"
+        },
+        {
+          "transactionId": 710,
+          "date": "2026-01-11",
+          "amount": -18.99,
+          "fromAmount": 18.99,
+          "toAmount": 0,
+          "description": "Netflix subscription"
+        },
+        {
+          "transactionId": 766,
+          "date": "2026-02-11",
+          "amount": -18.99,
+          "fromAmount": 18.99,
+          "toAmount": 0,
+          "description": "Netflix subscription"
+        },
+        {
+          "transactionId": 824,
+          "date": "2026-03-11",
+          "amount": -18.99,
+          "fromAmount": 18.99,
+          "toAmount": 0,
+          "description": "Netflix subscription"
+        },
+        {
+          "transactionId": 879,
+          "date": "2026-04-11",
+          "amount": -18.99,
+          "fromAmount": 18.99,
+          "toAmount": 0,
+          "description": "Netflix subscription"
+        },
+        {
+          "transactionId": 937,
+          "date": "2026-05-11",
+          "amount": -18.99,
+          "fromAmount": 18.99,
+          "toAmount": 0,
+          "description": "Netflix subscription"
+        },
+        {
+          "transactionId": 994,
+          "date": "2026-06-11",
+          "amount": -18.99,
+          "fromAmount": 18.99,
+          "toAmount": 0,
+          "description": "Netflix subscription"
+        }
+      ]
+    },
+    {
+      "id": 15,
+      "amount": -14.95,
+      "fromAmount": 14.95,
+      "toAmount": 0,
+      "type": "expense",
+      "description": "Audible membership",
+      "section": "Lifestyle",
+      "category": "📚Books",
+      "contact": "Audible",
+      "fromAccount": "Apple Card",
+      "toAccount": "",
+      "tags": [
+        "subscription"
+      ],
+      "isRecurring": true,
+      "repeatUnit": "month",
+      "repeatInterval": 1,
+      "monthdays": [
+        21
+      ],
+      "weekdays": [],
+      "nthWeek": null,
+      "nthWeekday": null,
+      "yearMonths": [],
+      "recurrenceType": "monthdays",
+      "recurrencePreset": "monthly",
+      "startDate": "2025-01-01",
+      "nextDate": "2026-07-21",
+      "lastDate": "2026-06-21",
+      "endDate": null,
+      "maxOccurrences": null,
+      "occurrencesCount": 18,
+      "occurrences": [
+        {
+          "transactionId": 21,
+          "date": "2025-01-21",
+          "amount": -14.95,
+          "fromAmount": 14.95,
+          "toAmount": 0,
+          "description": "Audible membership"
+        },
+        {
+          "transactionId": 77,
+          "date": "2025-02-21",
+          "amount": -14.95,
+          "fromAmount": 14.95,
+          "toAmount": 0,
+          "description": "Audible membership"
+        },
+        {
+          "transactionId": 134,
+          "date": "2025-03-21",
+          "amount": -14.95,
+          "fromAmount": 14.95,
+          "toAmount": 0,
+          "description": "Audible membership"
+        },
+        {
+          "transactionId": 193,
+          "date": "2025-04-21",
+          "amount": -14.95,
+          "fromAmount": 14.95,
+          "toAmount": 0,
+          "description": "Audible membership"
+        },
+        {
+          "transactionId": 252,
+          "date": "2025-05-21",
+          "amount": -14.95,
+          "fromAmount": 14.95,
+          "toAmount": 0,
+          "description": "Audible membership"
+        },
+        {
+          "transactionId": 310,
+          "date": "2025-06-21",
+          "amount": -14.95,
+          "fromAmount": 14.95,
+          "toAmount": 0,
+          "description": "Audible membership"
+        },
+        {
+          "transactionId": 366,
+          "date": "2025-07-21",
+          "amount": -14.95,
+          "fromAmount": 14.95,
+          "toAmount": 0,
+          "description": "Audible membership"
+        },
+        {
+          "transactionId": 425,
+          "date": "2025-08-21",
+          "amount": -14.95,
+          "fromAmount": 14.95,
+          "toAmount": 0,
+          "description": "Audible membership"
+        },
+        {
+          "transactionId": 481,
+          "date": "2025-09-21",
+          "amount": -14.95,
+          "fromAmount": 14.95,
+          "toAmount": 0,
+          "description": "Audible membership"
+        },
+        {
+          "transactionId": 536,
+          "date": "2025-10-21",
+          "amount": -14.95,
+          "fromAmount": 14.95,
+          "toAmount": 0,
+          "description": "Audible membership"
+        },
+        {
+          "transactionId": 592,
+          "date": "2025-11-21",
+          "amount": -14.95,
+          "fromAmount": 14.95,
+          "toAmount": 0,
+          "description": "Audible membership"
+        },
+        {
+          "transactionId": 652,
+          "date": "2025-12-21",
+          "amount": -14.95,
+          "fromAmount": 14.95,
+          "toAmount": 0,
+          "description": "Audible membership"
+        },
+        {
+          "transactionId": 711,
+          "date": "2026-01-21",
+          "amount": -14.95,
+          "fromAmount": 14.95,
+          "toAmount": 0,
+          "description": "Audible membership"
+        },
+        {
+          "transactionId": 767,
+          "date": "2026-02-21",
+          "amount": -14.95,
+          "fromAmount": 14.95,
+          "toAmount": 0,
+          "description": "Audible membership"
+        },
+        {
+          "transactionId": 825,
+          "date": "2026-03-21",
+          "amount": -14.95,
+          "fromAmount": 14.95,
+          "toAmount": 0,
+          "description": "Audible membership"
+        },
+        {
+          "transactionId": 880,
+          "date": "2026-04-21",
+          "amount": -14.95,
+          "fromAmount": 14.95,
+          "toAmount": 0,
+          "description": "Audible membership"
+        },
+        {
+          "transactionId": 938,
+          "date": "2026-05-21",
+          "amount": -14.95,
+          "fromAmount": 14.95,
+          "toAmount": 0,
+          "description": "Audible membership"
+        },
+        {
+          "transactionId": 995,
+          "date": "2026-06-21",
+          "amount": -14.95,
+          "fromAmount": 14.95,
+          "toAmount": 0,
+          "description": "Audible membership"
+        }
+      ]
+    },
+    {
+      "id": 16,
+      "amount": -95,
+      "fromAmount": 95,
+      "toAmount": 0,
+      "type": "expense",
+      "description": "Kids soccer club dues",
+      "section": "Family",
+      "category": "🧸Kids Activities",
+      "contact": "YMCA",
+      "fromAccount": "Chase Checking",
+      "toAccount": "",
+      "tags": [
+        "kids"
+      ],
+      "isRecurring": true,
+      "repeatUnit": "month",
+      "repeatInterval": 1,
+      "monthdays": [],
+      "weekdays": [],
+      "nthWeek": 2,
+      "nthWeekday": 6,
+      "yearMonths": [],
+      "recurrenceType": "nth_weekday",
+      "recurrencePreset": "custom",
+      "startDate": "2025-01-01",
+      "nextDate": "2026-07-11",
+      "lastDate": "2026-06-13",
+      "endDate": null,
+      "maxOccurrences": null,
+      "occurrencesCount": 18,
+      "occurrences": [
+        {
+          "transactionId": 22,
+          "date": "2025-01-11",
+          "amount": -95,
+          "fromAmount": 95,
+          "toAmount": 0,
+          "description": "Kids soccer club dues"
+        },
+        {
+          "transactionId": 78,
+          "date": "2025-02-08",
+          "amount": -95,
+          "fromAmount": 95,
+          "toAmount": 0,
+          "description": "Kids soccer club dues"
+        },
+        {
+          "transactionId": 135,
+          "date": "2025-03-08",
+          "amount": -95,
+          "fromAmount": 95,
+          "toAmount": 0,
+          "description": "Kids soccer club dues"
+        },
+        {
+          "transactionId": 194,
+          "date": "2025-04-12",
+          "amount": -95,
+          "fromAmount": 95,
+          "toAmount": 0,
+          "description": "Kids soccer club dues"
+        },
+        {
+          "transactionId": 253,
+          "date": "2025-05-10",
+          "amount": -95,
+          "fromAmount": 95,
+          "toAmount": 0,
+          "description": "Kids soccer club dues"
+        },
+        {
+          "transactionId": 311,
+          "date": "2025-06-14",
+          "amount": -95,
+          "fromAmount": 95,
+          "toAmount": 0,
+          "description": "Kids soccer club dues"
+        },
+        {
+          "transactionId": 367,
+          "date": "2025-07-12",
+          "amount": -95,
+          "fromAmount": 95,
+          "toAmount": 0,
+          "description": "Kids soccer club dues"
+        },
+        {
+          "transactionId": 426,
+          "date": "2025-08-09",
+          "amount": -95,
+          "fromAmount": 95,
+          "toAmount": 0,
+          "description": "Kids soccer club dues"
+        },
+        {
+          "transactionId": 482,
+          "date": "2025-09-13",
+          "amount": -95,
+          "fromAmount": 95,
+          "toAmount": 0,
+          "description": "Kids soccer club dues"
+        },
+        {
+          "transactionId": 537,
+          "date": "2025-10-11",
+          "amount": -95,
+          "fromAmount": 95,
+          "toAmount": 0,
+          "description": "Kids soccer club dues"
+        },
+        {
+          "transactionId": 593,
+          "date": "2025-11-08",
+          "amount": -95,
+          "fromAmount": 95,
+          "toAmount": 0,
+          "description": "Kids soccer club dues"
+        },
+        {
+          "transactionId": 653,
+          "date": "2025-12-13",
+          "amount": -95,
+          "fromAmount": 95,
+          "toAmount": 0,
+          "description": "Kids soccer club dues"
+        },
+        {
+          "transactionId": 712,
+          "date": "2026-01-10",
+          "amount": -95,
+          "fromAmount": 95,
+          "toAmount": 0,
+          "description": "Kids soccer club dues"
+        },
+        {
+          "transactionId": 768,
+          "date": "2026-02-14",
+          "amount": -95,
+          "fromAmount": 95,
+          "toAmount": 0,
+          "description": "Kids soccer club dues"
+        },
+        {
+          "transactionId": 826,
+          "date": "2026-03-14",
+          "amount": -95,
+          "fromAmount": 95,
+          "toAmount": 0,
+          "description": "Kids soccer club dues"
+        },
+        {
+          "transactionId": 881,
+          "date": "2026-04-11",
+          "amount": -95,
+          "fromAmount": 95,
+          "toAmount": 0,
+          "description": "Kids soccer club dues"
+        },
+        {
+          "transactionId": 939,
+          "date": "2026-05-09",
+          "amount": -95,
+          "fromAmount": 95,
+          "toAmount": 0,
+          "description": "Kids soccer club dues"
+        },
+        {
+          "transactionId": 996,
+          "date": "2026-06-13",
+          "amount": -95,
+          "fromAmount": 95,
+          "toAmount": 0,
+          "description": "Kids soccer club dues"
+        }
+      ]
+    },
+    {
+      "id": 17,
+      "amount": -40,
+      "fromAmount": 40,
+      "toAmount": 0,
+      "type": "expense",
+      "description": "Weekly farmers market",
+      "section": "Groceries",
+      "category": "🛒Groceries",
+      "contact": "Union Square Greenmarket",
+      "fromAccount": "Apple Cash",
+      "toAccount": "",
+      "tags": [
+        "weekly-errands"
+      ],
+      "isRecurring": true,
+      "repeatUnit": "week",
+      "repeatInterval": 1,
+      "monthdays": [],
+      "weekdays": [
+        6
+      ],
+      "nthWeek": null,
+      "nthWeekday": null,
+      "yearMonths": [],
+      "recurrenceType": "weekdays",
+      "recurrencePreset": "weekly",
+      "startDate": "2025-01-04",
+      "nextDate": "2026-07-11",
+      "lastDate": "2026-06-27",
+      "endDate": null,
+      "maxOccurrences": null,
+      "occurrencesCount": 78,
+      "occurrences": [
+        {
+          "transactionId": 23,
+          "date": "2025-01-04",
+          "amount": -50.39,
+          "fromAmount": 50.39,
+          "toAmount": 0,
+          "description": "Weekly farmers market"
+        },
+        {
+          "transactionId": 24,
+          "date": "2025-01-11",
+          "amount": -40.16,
+          "fromAmount": 40.16,
+          "toAmount": 0,
+          "description": "Weekly farmers market"
+        },
+        {
+          "transactionId": 25,
+          "date": "2025-01-18",
+          "amount": -50.62,
+          "fromAmount": 50.62,
+          "toAmount": 0,
+          "description": "Weekly farmers market"
+        },
+        {
+          "transactionId": 26,
+          "date": "2025-01-25",
+          "amount": -55.48,
+          "fromAmount": 55.48,
+          "toAmount": 0,
+          "description": "Weekly farmers market"
+        },
+        {
+          "transactionId": 79,
+          "date": "2025-02-01",
+          "amount": -41.42,
+          "fromAmount": 41.42,
+          "toAmount": 0,
+          "description": "Weekly farmers market"
+        },
+        {
+          "transactionId": 80,
+          "date": "2025-02-08",
+          "amount": -55.38,
+          "fromAmount": 55.38,
+          "toAmount": 0,
+          "description": "Weekly farmers market"
+        },
+        {
+          "transactionId": 81,
+          "date": "2025-02-15",
+          "amount": -42.1,
+          "fromAmount": 42.1,
+          "toAmount": 0,
+          "description": "Weekly farmers market"
+        },
+        {
+          "transactionId": 82,
+          "date": "2025-02-22",
+          "amount": -57.34,
+          "fromAmount": 57.34,
+          "toAmount": 0,
+          "description": "Weekly farmers market"
+        },
+        {
+          "transactionId": 136,
+          "date": "2025-03-01",
+          "amount": -38.76,
+          "fromAmount": 38.76,
+          "toAmount": 0,
+          "description": "Weekly farmers market"
+        },
+        {
+          "transactionId": 137,
+          "date": "2025-03-08",
+          "amount": -54.2,
+          "fromAmount": 54.2,
+          "toAmount": 0,
+          "description": "Weekly farmers market"
+        },
+        {
+          "transactionId": 138,
+          "date": "2025-03-15",
+          "amount": -44.07,
+          "fromAmount": 44.07,
+          "toAmount": 0,
+          "description": "Weekly farmers market"
+        },
+        {
+          "transactionId": 139,
+          "date": "2025-03-22",
+          "amount": -51.43,
+          "fromAmount": 51.43,
+          "toAmount": 0,
+          "description": "Weekly farmers market"
+        },
+        {
+          "transactionId": 140,
+          "date": "2025-03-29",
+          "amount": -45.41,
+          "fromAmount": 45.41,
+          "toAmount": 0,
+          "description": "Weekly farmers market"
+        },
+        {
+          "transactionId": 195,
+          "date": "2025-04-05",
+          "amount": -52.58,
+          "fromAmount": 52.58,
+          "toAmount": 0,
+          "description": "Weekly farmers market"
+        },
+        {
+          "transactionId": 196,
+          "date": "2025-04-12",
+          "amount": -36.69,
+          "fromAmount": 36.69,
+          "toAmount": 0,
+          "description": "Weekly farmers market"
+        },
+        {
+          "transactionId": 197,
+          "date": "2025-04-19",
+          "amount": -35.81,
+          "fromAmount": 35.81,
+          "toAmount": 0,
+          "description": "Weekly farmers market"
+        },
+        {
+          "transactionId": 198,
+          "date": "2025-04-26",
+          "amount": -48.74,
+          "fromAmount": 48.74,
+          "toAmount": 0,
+          "description": "Weekly farmers market"
+        },
+        {
+          "transactionId": 254,
+          "date": "2025-05-03",
+          "amount": -38.59,
+          "fromAmount": 38.59,
+          "toAmount": 0,
+          "description": "Weekly farmers market"
+        },
+        {
+          "transactionId": 255,
+          "date": "2025-05-10",
+          "amount": -49.13,
+          "fromAmount": 49.13,
+          "toAmount": 0,
+          "description": "Weekly farmers market"
+        },
+        {
+          "transactionId": 256,
+          "date": "2025-05-17",
+          "amount": -47.9,
+          "fromAmount": 47.9,
+          "toAmount": 0,
+          "description": "Weekly farmers market"
+        },
+        {
+          "transactionId": 257,
+          "date": "2025-05-24",
+          "amount": -55.05,
+          "fromAmount": 55.05,
+          "toAmount": 0,
+          "description": "Weekly farmers market"
+        },
+        {
+          "transactionId": 258,
+          "date": "2025-05-31",
+          "amount": -37.32,
+          "fromAmount": 37.32,
+          "toAmount": 0,
+          "description": "Weekly farmers market"
+        },
+        {
+          "transactionId": 312,
+          "date": "2025-06-07",
+          "amount": -56.85,
+          "fromAmount": 56.85,
+          "toAmount": 0,
+          "description": "Weekly farmers market"
+        },
+        {
+          "transactionId": 313,
+          "date": "2025-06-14",
+          "amount": -49.27,
+          "fromAmount": 49.27,
+          "toAmount": 0,
+          "description": "Weekly farmers market"
+        },
+        {
+          "transactionId": 314,
+          "date": "2025-06-21",
+          "amount": -38.77,
+          "fromAmount": 38.77,
+          "toAmount": 0,
+          "description": "Weekly farmers market"
+        },
+        {
+          "transactionId": 315,
+          "date": "2025-06-28",
+          "amount": -44.6,
+          "fromAmount": 44.6,
+          "toAmount": 0,
+          "description": "Weekly farmers market"
+        },
+        {
+          "transactionId": 368,
+          "date": "2025-07-05",
+          "amount": -39.46,
+          "fromAmount": 39.46,
+          "toAmount": 0,
+          "description": "Weekly farmers market"
+        },
+        {
+          "transactionId": 369,
+          "date": "2025-07-12",
+          "amount": -45.73,
+          "fromAmount": 45.73,
+          "toAmount": 0,
+          "description": "Weekly farmers market"
+        },
+        {
+          "transactionId": 370,
+          "date": "2025-07-19",
+          "amount": -40.21,
+          "fromAmount": 40.21,
+          "toAmount": 0,
+          "description": "Weekly farmers market"
+        },
+        {
+          "transactionId": 371,
+          "date": "2025-07-26",
+          "amount": -54.35,
+          "fromAmount": 54.35,
+          "toAmount": 0,
+          "description": "Weekly farmers market"
+        },
+        {
+          "transactionId": 427,
+          "date": "2025-08-02",
+          "amount": -56.28,
+          "fromAmount": 56.28,
+          "toAmount": 0,
+          "description": "Weekly farmers market"
+        },
+        {
+          "transactionId": 428,
+          "date": "2025-08-09",
+          "amount": -38.57,
+          "fromAmount": 38.57,
+          "toAmount": 0,
+          "description": "Weekly farmers market"
+        },
+        {
+          "transactionId": 429,
+          "date": "2025-08-16",
+          "amount": -40.53,
+          "fromAmount": 40.53,
+          "toAmount": 0,
+          "description": "Weekly farmers market"
+        },
+        {
+          "transactionId": 430,
+          "date": "2025-08-23",
+          "amount": -57.64,
+          "fromAmount": 57.64,
+          "toAmount": 0,
+          "description": "Weekly farmers market"
+        },
+        {
+          "transactionId": 431,
+          "date": "2025-08-30",
+          "amount": -37.54,
+          "fromAmount": 37.54,
+          "toAmount": 0,
+          "description": "Weekly farmers market"
+        },
+        {
+          "transactionId": 483,
+          "date": "2025-09-06",
+          "amount": -51.7,
+          "fromAmount": 51.7,
+          "toAmount": 0,
+          "description": "Weekly farmers market"
+        },
+        {
+          "transactionId": 484,
+          "date": "2025-09-13",
+          "amount": -56.67,
+          "fromAmount": 56.67,
+          "toAmount": 0,
+          "description": "Weekly farmers market"
+        },
+        {
+          "transactionId": 485,
+          "date": "2025-09-20",
+          "amount": -42.21,
+          "fromAmount": 42.21,
+          "toAmount": 0,
+          "description": "Weekly farmers market"
+        },
+        {
+          "transactionId": 486,
+          "date": "2025-09-27",
+          "amount": -51.73,
+          "fromAmount": 51.73,
+          "toAmount": 0,
+          "description": "Weekly farmers market"
+        },
+        {
+          "transactionId": 538,
+          "date": "2025-10-04",
+          "amount": -39.86,
+          "fromAmount": 39.86,
+          "toAmount": 0,
+          "description": "Weekly farmers market"
+        },
+        {
+          "transactionId": 539,
+          "date": "2025-10-11",
+          "amount": -55,
+          "fromAmount": 55,
+          "toAmount": 0,
+          "description": "Weekly farmers market"
+        },
+        {
+          "transactionId": 540,
+          "date": "2025-10-18",
+          "amount": -44.64,
+          "fromAmount": 44.64,
+          "toAmount": 0,
+          "description": "Weekly farmers market"
+        },
+        {
+          "transactionId": 541,
+          "date": "2025-10-25",
+          "amount": -44.86,
+          "fromAmount": 44.86,
+          "toAmount": 0,
+          "description": "Weekly farmers market"
+        },
+        {
+          "transactionId": 594,
+          "date": "2025-11-01",
+          "amount": -40.78,
+          "fromAmount": 40.78,
+          "toAmount": 0,
+          "description": "Weekly farmers market"
+        },
+        {
+          "transactionId": 595,
+          "date": "2025-11-08",
+          "amount": -49.07,
+          "fromAmount": 49.07,
+          "toAmount": 0,
+          "description": "Weekly farmers market"
+        },
+        {
+          "transactionId": 596,
+          "date": "2025-11-15",
+          "amount": -46.67,
+          "fromAmount": 46.67,
+          "toAmount": 0,
+          "description": "Weekly farmers market"
+        },
+        {
+          "transactionId": 597,
+          "date": "2025-11-22",
+          "amount": -36.93,
+          "fromAmount": 36.93,
+          "toAmount": 0,
+          "description": "Weekly farmers market"
+        },
+        {
+          "transactionId": 598,
+          "date": "2025-11-29",
+          "amount": -35.02,
+          "fromAmount": 35.02,
+          "toAmount": 0,
+          "description": "Weekly farmers market"
+        },
+        {
+          "transactionId": 654,
+          "date": "2025-12-06",
+          "amount": -38.69,
+          "fromAmount": 38.69,
+          "toAmount": 0,
+          "description": "Weekly farmers market"
+        },
+        {
+          "transactionId": 655,
+          "date": "2025-12-13",
+          "amount": -55.09,
+          "fromAmount": 55.09,
+          "toAmount": 0,
+          "description": "Weekly farmers market"
+        },
+        {
+          "transactionId": 656,
+          "date": "2025-12-20",
+          "amount": -40.22,
+          "fromAmount": 40.22,
+          "toAmount": 0,
+          "description": "Weekly farmers market"
+        },
+        {
+          "transactionId": 657,
+          "date": "2025-12-27",
+          "amount": -48.23,
+          "fromAmount": 48.23,
+          "toAmount": 0,
+          "description": "Weekly farmers market"
+        },
+        {
+          "transactionId": 713,
+          "date": "2026-01-03",
+          "amount": -48.03,
+          "fromAmount": 48.03,
+          "toAmount": 0,
+          "description": "Weekly farmers market"
+        },
+        {
+          "transactionId": 714,
+          "date": "2026-01-10",
+          "amount": -41.11,
+          "fromAmount": 41.11,
+          "toAmount": 0,
+          "description": "Weekly farmers market"
+        },
+        {
+          "transactionId": 715,
+          "date": "2026-01-17",
+          "amount": -45.1,
+          "fromAmount": 45.1,
+          "toAmount": 0,
+          "description": "Weekly farmers market"
+        },
+        {
+          "transactionId": 716,
+          "date": "2026-01-24",
+          "amount": -49.86,
+          "fromAmount": 49.86,
+          "toAmount": 0,
+          "description": "Weekly farmers market"
+        },
+        {
+          "transactionId": 717,
+          "date": "2026-01-31",
+          "amount": -40.68,
+          "fromAmount": 40.68,
+          "toAmount": 0,
+          "description": "Weekly farmers market"
+        },
+        {
+          "transactionId": 769,
+          "date": "2026-02-07",
+          "amount": -49.6,
+          "fromAmount": 49.6,
+          "toAmount": 0,
+          "description": "Weekly farmers market"
+        },
+        {
+          "transactionId": 770,
+          "date": "2026-02-14",
+          "amount": -35.35,
+          "fromAmount": 35.35,
+          "toAmount": 0,
+          "description": "Weekly farmers market"
+        },
+        {
+          "transactionId": 771,
+          "date": "2026-02-21",
+          "amount": -57.82,
+          "fromAmount": 57.82,
+          "toAmount": 0,
+          "description": "Weekly farmers market"
+        },
+        {
+          "transactionId": 772,
+          "date": "2026-02-28",
+          "amount": -56.84,
+          "fromAmount": 56.84,
+          "toAmount": 0,
+          "description": "Weekly farmers market"
+        },
+        {
+          "transactionId": 827,
+          "date": "2026-03-07",
+          "amount": -57.67,
+          "fromAmount": 57.67,
+          "toAmount": 0,
+          "description": "Weekly farmers market"
+        },
+        {
+          "transactionId": 828,
+          "date": "2026-03-14",
+          "amount": -51.48,
+          "fromAmount": 51.48,
+          "toAmount": 0,
+          "description": "Weekly farmers market"
+        },
+        {
+          "transactionId": 829,
+          "date": "2026-03-21",
+          "amount": -51.08,
+          "fromAmount": 51.08,
+          "toAmount": 0,
+          "description": "Weekly farmers market"
+        },
+        {
+          "transactionId": 830,
+          "date": "2026-03-28",
+          "amount": -53.37,
+          "fromAmount": 53.37,
+          "toAmount": 0,
+          "description": "Weekly farmers market"
+        },
+        {
+          "transactionId": 882,
+          "date": "2026-04-04",
+          "amount": -37.76,
+          "fromAmount": 37.76,
+          "toAmount": 0,
+          "description": "Weekly farmers market"
+        },
+        {
+          "transactionId": 883,
+          "date": "2026-04-11",
+          "amount": -57.08,
+          "fromAmount": 57.08,
+          "toAmount": 0,
+          "description": "Weekly farmers market"
+        },
+        {
+          "transactionId": 884,
+          "date": "2026-04-18",
+          "amount": -46.51,
+          "fromAmount": 46.51,
+          "toAmount": 0,
+          "description": "Weekly farmers market"
+        },
+        {
+          "transactionId": 885,
+          "date": "2026-04-25",
+          "amount": -43.24,
+          "fromAmount": 43.24,
+          "toAmount": 0,
+          "description": "Weekly farmers market"
+        },
+        {
+          "transactionId": 940,
+          "date": "2026-05-02",
+          "amount": -41.77,
+          "fromAmount": 41.77,
+          "toAmount": 0,
+          "description": "Weekly farmers market"
+        },
+        {
+          "transactionId": 941,
+          "date": "2026-05-09",
+          "amount": -53.08,
+          "fromAmount": 53.08,
+          "toAmount": 0,
+          "description": "Weekly farmers market"
+        },
+        {
+          "transactionId": 942,
+          "date": "2026-05-16",
+          "amount": -57.64,
+          "fromAmount": 57.64,
+          "toAmount": 0,
+          "description": "Weekly farmers market"
+        },
+        {
+          "transactionId": 943,
+          "date": "2026-05-23",
+          "amount": -49.72,
+          "fromAmount": 49.72,
+          "toAmount": 0,
+          "description": "Weekly farmers market"
+        },
+        {
+          "transactionId": 944,
+          "date": "2026-05-30",
+          "amount": -56.48,
+          "fromAmount": 56.48,
+          "toAmount": 0,
+          "description": "Weekly farmers market"
+        },
+        {
+          "transactionId": 997,
+          "date": "2026-06-06",
+          "amount": -41.45,
+          "fromAmount": 41.45,
+          "toAmount": 0,
+          "description": "Weekly farmers market"
+        },
+        {
+          "transactionId": 998,
+          "date": "2026-06-13",
+          "amount": -57.34,
+          "fromAmount": 57.34,
+          "toAmount": 0,
+          "description": "Weekly farmers market"
+        },
+        {
+          "transactionId": 999,
+          "date": "2026-06-20",
+          "amount": -45.32,
+          "fromAmount": 45.32,
+          "toAmount": 0,
+          "description": "Weekly farmers market"
+        },
+        {
+          "transactionId": 1000,
+          "date": "2026-06-27",
+          "amount": -57.06,
+          "fromAmount": 57.06,
+          "toAmount": 0,
+          "description": "Weekly farmers market"
+        }
+      ]
+    },
+    {
+      "id": 18,
+      "amount": -120,
+      "fromAmount": 120,
+      "toAmount": 0,
+      "type": "expense",
+      "description": "Quarterly charity donation",
+      "section": "Giving",
+      "category": "🤲Charity",
+      "contact": "Local Food Bank",
+      "fromAccount": "Chase Checking",
+      "toAccount": "",
+      "tags": [
+        "giving"
+      ],
+      "isRecurring": true,
+      "repeatUnit": "month",
+      "repeatInterval": 3,
+      "monthdays": [
+        14
+      ],
+      "weekdays": [],
+      "nthWeek": null,
+      "nthWeekday": null,
+      "yearMonths": [],
+      "recurrenceType": "monthdays",
+      "recurrencePreset": "quarterly",
+      "startDate": "2025-01-01",
+      "nextDate": "2026-08-14",
+      "lastDate": "2026-05-14",
+      "endDate": null,
+      "maxOccurrences": null,
+      "occurrencesCount": 6,
+      "occurrences": [
+        {
+          "transactionId": 83,
+          "date": "2025-02-14",
+          "amount": -120,
+          "fromAmount": 120,
+          "toAmount": 0,
+          "description": "Quarterly charity donation"
+        },
+        {
+          "transactionId": 259,
+          "date": "2025-05-14",
+          "amount": -120,
+          "fromAmount": 120,
+          "toAmount": 0,
+          "description": "Quarterly charity donation"
+        },
+        {
+          "transactionId": 432,
+          "date": "2025-08-14",
+          "amount": -120,
+          "fromAmount": 120,
+          "toAmount": 0,
+          "description": "Quarterly charity donation"
+        },
+        {
+          "transactionId": 599,
+          "date": "2025-11-14",
+          "amount": -120,
+          "fromAmount": 120,
+          "toAmount": 0,
+          "description": "Quarterly charity donation"
+        },
+        {
+          "transactionId": 773,
+          "date": "2026-02-14",
+          "amount": -120,
+          "fromAmount": 120,
+          "toAmount": 0,
+          "description": "Quarterly charity donation"
+        },
+        {
+          "transactionId": 945,
+          "date": "2026-05-14",
+          "amount": -120,
+          "fromAmount": 120,
+          "toAmount": 0,
+          "description": "Quarterly charity donation"
+        }
+      ]
+    },
+    {
+      "id": 19,
+      "amount": 0,
+      "fromAmount": 1600,
+      "toAmount": 1600,
+      "type": "transfer",
+      "description": "Credit card payment",
+      "section": "",
+      "category": "",
+      "contact": "",
+      "fromAccount": "Chase Checking",
+      "toAccount": "Apple Card",
+      "tags": [],
+      "isRecurring": true,
+      "repeatUnit": "month",
+      "repeatInterval": 1,
+      "monthdays": [
+        23
+      ],
+      "weekdays": [],
+      "nthWeek": null,
+      "nthWeekday": null,
+      "yearMonths": [],
+      "recurrenceType": "monthdays",
+      "recurrencePreset": "monthly",
+      "startDate": "2025-01-01",
+      "nextDate": "2026-07-23",
+      "lastDate": "2026-06-23",
+      "endDate": null,
+      "maxOccurrences": null,
+      "occurrencesCount": 18,
+      "occurrences": [
+        {
+          "transactionId": 31,
+          "date": "2025-01-23",
+          "amount": 0,
+          "fromAmount": 2048.79,
+          "toAmount": 2048.79,
+          "description": "Credit card payment"
+        },
+        {
+          "transactionId": 88,
+          "date": "2025-02-23",
+          "amount": 0,
+          "fromAmount": 1954.15,
+          "toAmount": 1954.15,
+          "description": "Credit card payment"
+        },
+        {
+          "transactionId": 145,
+          "date": "2025-03-23",
+          "amount": 0,
+          "fromAmount": 1377.94,
+          "toAmount": 1377.94,
+          "description": "Credit card payment"
+        },
+        {
+          "transactionId": 203,
+          "date": "2025-04-23",
+          "amount": 0,
+          "fromAmount": 2112.85,
+          "toAmount": 2112.85,
+          "description": "Credit card payment"
+        },
+        {
+          "transactionId": 264,
+          "date": "2025-05-23",
+          "amount": 0,
+          "fromAmount": 2377.98,
+          "toAmount": 2377.98,
+          "description": "Credit card payment"
+        },
+        {
+          "transactionId": 320,
+          "date": "2025-06-23",
+          "amount": 0,
+          "fromAmount": 2164.6,
+          "toAmount": 2164.6,
+          "description": "Credit card payment"
+        },
+        {
+          "transactionId": 376,
+          "date": "2025-07-23",
+          "amount": 0,
+          "fromAmount": 1352.81,
+          "toAmount": 1352.81,
+          "description": "Credit card payment"
+        },
+        {
+          "transactionId": 437,
+          "date": "2025-08-23",
+          "amount": 0,
+          "fromAmount": 1681.06,
+          "toAmount": 1681.06,
+          "description": "Credit card payment"
+        },
+        {
+          "transactionId": 491,
+          "date": "2025-09-23",
+          "amount": 0,
+          "fromAmount": 2241.9,
+          "toAmount": 2241.9,
+          "description": "Credit card payment"
+        },
+        {
+          "transactionId": 546,
+          "date": "2025-10-23",
+          "amount": 0,
+          "fromAmount": 2181.59,
+          "toAmount": 2181.59,
+          "description": "Credit card payment"
+        },
+        {
+          "transactionId": 604,
+          "date": "2025-11-23",
+          "amount": 0,
+          "fromAmount": 1418.14,
+          "toAmount": 1418.14,
+          "description": "Credit card payment"
+        },
+        {
+          "transactionId": 662,
+          "date": "2025-12-23",
+          "amount": 0,
+          "fromAmount": 1647.64,
+          "toAmount": 1647.64,
+          "description": "Credit card payment"
+        },
+        {
+          "transactionId": 722,
+          "date": "2026-01-23",
+          "amount": 0,
+          "fromAmount": 2101.04,
+          "toAmount": 2101.04,
+          "description": "Credit card payment"
+        },
+        {
+          "transactionId": 778,
+          "date": "2026-02-23",
+          "amount": 0,
+          "fromAmount": 1984.74,
+          "toAmount": 1984.74,
+          "description": "Credit card payment"
+        },
+        {
+          "transactionId": 835,
+          "date": "2026-03-23",
+          "amount": 0,
+          "fromAmount": 1930.8,
+          "toAmount": 1930.8,
+          "description": "Credit card payment"
+        },
+        {
+          "transactionId": 890,
+          "date": "2026-04-23",
+          "amount": 0,
+          "fromAmount": 2074.1,
+          "toAmount": 2074.1,
+          "description": "Credit card payment"
+        },
+        {
+          "transactionId": 950,
+          "date": "2026-05-23",
+          "amount": 0,
+          "fromAmount": 2059.76,
+          "toAmount": 2059.76,
+          "description": "Credit card payment"
+        },
+        {
+          "transactionId": 1005,
+          "date": "2026-06-23",
+          "amount": 0,
+          "fromAmount": 1980.65,
+          "toAmount": 1980.65,
+          "description": "Credit card payment"
+        }
+      ]
+    },
+    {
+      "id": 20,
+      "amount": 0,
+      "fromAmount": 850,
+      "toAmount": 850,
+      "type": "transfer",
+      "description": "Amex payment",
+      "section": "",
+      "category": "",
+      "contact": "",
+      "fromAccount": "Chase Checking",
+      "toAccount": "Amex Blue Cash",
+      "tags": [],
+      "isRecurring": true,
+      "repeatUnit": "month",
+      "repeatInterval": 1,
+      "monthdays": [
+        27
+      ],
+      "weekdays": [],
+      "nthWeek": null,
+      "nthWeekday": null,
+      "yearMonths": [],
+      "recurrenceType": "monthdays",
+      "recurrencePreset": "monthly",
+      "startDate": "2025-01-01",
+      "nextDate": "2026-07-27",
+      "lastDate": "2026-06-27",
+      "endDate": null,
+      "maxOccurrences": null,
+      "occurrencesCount": 18,
+      "occurrences": [
+        {
+          "transactionId": 32,
+          "date": "2025-01-27",
+          "amount": 0,
+          "fromAmount": 950.36,
+          "toAmount": 950.36,
+          "description": "Amex payment"
+        },
+        {
+          "transactionId": 89,
+          "date": "2025-02-27",
+          "amount": 0,
+          "fromAmount": 806.67,
+          "toAmount": 806.67,
+          "description": "Amex payment"
+        },
+        {
+          "transactionId": 146,
+          "date": "2025-03-27",
+          "amount": 0,
+          "fromAmount": 796.55,
+          "toAmount": 796.55,
+          "description": "Amex payment"
+        },
+        {
+          "transactionId": 204,
+          "date": "2025-04-27",
+          "amount": 0,
+          "fromAmount": 719.25,
+          "toAmount": 719.25,
+          "description": "Amex payment"
+        },
+        {
+          "transactionId": 265,
+          "date": "2025-05-27",
+          "amount": 0,
+          "fromAmount": 892.62,
+          "toAmount": 892.62,
+          "description": "Amex payment"
+        },
+        {
+          "transactionId": 321,
+          "date": "2025-06-27",
+          "amount": 0,
+          "fromAmount": 1116.99,
+          "toAmount": 1116.99,
+          "description": "Amex payment"
+        },
+        {
+          "transactionId": 377,
+          "date": "2025-07-27",
+          "amount": 0,
+          "fromAmount": 1071.56,
+          "toAmount": 1071.56,
+          "description": "Amex payment"
+        },
+        {
+          "transactionId": 438,
+          "date": "2025-08-27",
+          "amount": 0,
+          "fromAmount": 737.59,
+          "toAmount": 737.59,
+          "description": "Amex payment"
+        },
+        {
+          "transactionId": 492,
+          "date": "2025-09-27",
+          "amount": 0,
+          "fromAmount": 844.39,
+          "toAmount": 844.39,
+          "description": "Amex payment"
+        },
+        {
+          "transactionId": 547,
+          "date": "2025-10-27",
+          "amount": 0,
+          "fromAmount": 772.77,
+          "toAmount": 772.77,
+          "description": "Amex payment"
+        },
+        {
+          "transactionId": 605,
+          "date": "2025-11-27",
+          "amount": 0,
+          "fromAmount": 638.85,
+          "toAmount": 638.85,
+          "description": "Amex payment"
+        },
+        {
+          "transactionId": 663,
+          "date": "2025-12-27",
+          "amount": 0,
+          "fromAmount": 990.29,
+          "toAmount": 990.29,
+          "description": "Amex payment"
+        },
+        {
+          "transactionId": 723,
+          "date": "2026-01-27",
+          "amount": 0,
+          "fromAmount": 935.03,
+          "toAmount": 935.03,
+          "description": "Amex payment"
+        },
+        {
+          "transactionId": 779,
+          "date": "2026-02-27",
+          "amount": 0,
+          "fromAmount": 706.99,
+          "toAmount": 706.99,
+          "description": "Amex payment"
+        },
+        {
+          "transactionId": 836,
+          "date": "2026-03-27",
+          "amount": 0,
+          "fromAmount": 995.42,
+          "toAmount": 995.42,
+          "description": "Amex payment"
+        },
+        {
+          "transactionId": 891,
+          "date": "2026-04-27",
+          "amount": 0,
+          "fromAmount": 950.13,
+          "toAmount": 950.13,
+          "description": "Amex payment"
+        },
+        {
+          "transactionId": 951,
+          "date": "2026-05-27",
+          "amount": 0,
+          "fromAmount": 912.14,
+          "toAmount": 912.14,
+          "description": "Amex payment"
+        },
+        {
+          "transactionId": 1006,
+          "date": "2026-06-27",
+          "amount": 0,
+          "fromAmount": 593.6,
+          "toAmount": 593.6,
+          "description": "Amex payment"
+        }
+      ]
+    }
+  ]
+}
