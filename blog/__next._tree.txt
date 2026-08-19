@@ -1,3 +1,4 @@
-:HL["/_next/static/chunks/01ztamdy-5u3_.css","style"]
+:HL["/_next/static/chunks/1xj8kt-szh4bq.css","style"]
 :HL["/blog-assets/two-years-building-budgetum/paper-to-app.webp","image"]
-0:{"tree":{"name":"","param":null,"prefetchHints":4176,"slots":{"children":{"name":"blog","param":null,"prefetchHints":4192,"slots":{"children":{"name":"__PAGE__","param":null,"prefetchHints":4256,"slots":null}}}}},"staleTime":300,"buildId":"9JZWgDowcfHx_p2N2cQZZ"}
+:HL["/blog-assets/connect-bank-budgeting-app/bank-sync-budgeting.webp","image"]
+0:{"tree":{"name":"","param":null,"prefetchHints":4176,"slots":{"children":{"name":"blog","param":null,"prefetchHints":4192,"slots":{"children":{"name":"__PAGE__","param":null,"prefetchHints":4256,"slots":null}}}}},"staleTime":300,"buildId":"AxoNjhGF1Jt723mHyUSHr"}
