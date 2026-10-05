@@ -1,0 +1,64 @@
+# Budgetum
+
+> Budgetum is a budget planner and expense tracker for iPhone and Android. You plan income and spending by category for a month or a custom period (for example payday to payday), record transactions, and compare planned with actual amounts. It works offline, needs no account, and keeps financial data on the device.
+
+Key facts:
+
+- Platforms: iOS (App Store) and Android (Google Play). On a computer, Desktop Analytics at https://budgetum.app/analytics opens an export from the app in the browser; the file is read locally.
+- Privacy: no account, no cloud sync, no bank connection. Data stays on the device; backups are files the user saves.
+- Offline: all core budgeting works offline. Only optional extras use the internet (shared plan links, exchange-rate suggestions, purchases).
+- Free vs Pro: core budgeting, tracking, and analytics are free. Budgetum Pro is a one-time purchase, not a subscription. Pro unlocks more than 5 recurring transactions, more than 5 tags, Saved Sets (including Sets on the Budget screen), and bank statement matching.
+- Import: Budgetum CSV, YNAB Register.csv, or any other CSV with column mapping. Pro can match a CSV or XLSX bank statement against an account.
+- Languages: English, German, Spanish, French, Portuguese, Russian, Ukrainian.
+- Support: support@budgetum.app. Budgetum AI Assistant (ChatGPT): https://chatgpt.com/g/g-69773bdf40b481919998c32dd3b6ed7a-budgetum-assistant
+
+The Help Center (https://budgetum.app/help) documents every screen. All guides in one file: https://budgetum.app/llms-full.txt
+
+## Budget & planning
+
+- [Budget screen](https://budgetum.app/help/budget): The Budget Screen is the main screen of Budgetum where you can view and manage your budget for either a calendar month or a custom budget period. It…
+- [Custom budget periods](https://budgetum.app/help/custom-budget-periods): Custom Budget Periods let you budget across any date range instead of being limited to a calendar month. You can create named or unnamed periods, switch…
+
+## Transactions
+
+- [Transactions screen](https://budgetum.app/help/transactions): The Transactions Screen shows budget transactions for the budget period you select - that is, income and expense transactions that are linked to your…
+- [Add and edit transactions](https://budgetum.app/help/add-transaction): The Add Transaction and Edit Transaction screens are where you record and modify your income and expense transactions. These screens provide all the…
+- [Receipts](https://budgetum.app/help/receipts): Receipts in Budgetum let you record multiple purchases from a single shopping trip or invoice as individual transactions. Instead of creating one…
+- [Recurring transactions](https://budgetum.app/help/recurring): The Recurring Transactions Screen manages saved transaction templates: scheduled subscriptions, bills and income, plus favourites you reuse manually. A…
+- [Day view](https://budgetum.app/help/day-view): The Day Transactions Screen provides a focused view of your transactions for a specific day, with an integrated calendar for easy navigation between…
+- [Transactions for an account, category, contact, or tag](https://budgetum.app/help/entity-transactions): The Entity Transactions Screen shows all transactions related to a specific item—whether that's an account, budget category, budget section, contact, or…
+
+## Accounts & import
+
+- [Accounts](https://budgetum.app/help/accounts): The Accounts Screen is where you manage all your financial accounts. You can organize your bank accounts, cash, credit cards, investments, and any other…
+- [Bank statement matching](https://budgetum.app/help/bank-statement-matching): The Statement Import screen helps you reconcile one account in Budgetum with a bank statement file. You import a CSV or XLSX file, tell Budgetum which…
+
+## Analytics
+
+- [Analytics and reports](https://budgetum.app/help/analytics): The Analytics screen provides visual charts and detailed breakdowns of your spending and income patterns. It helps you understand where your money goes…
+- [Saved Sets](https://budgetum.app/help/saved-sets): The Saved Sets screen lets you save reusable groups of transaction conditions. A set can be used to quickly open a filtered transaction list, review…
+
+## Organize
+
+- [Categories and sections](https://budgetum.app/help/categories): The Categories Screen is where you manage all your budget categories and sections. This is your master list of spending and income categories that you…
+- [Contacts](https://budgetum.app/help/contacts): The Contacts Screen is where you manage all the people and businesses you transact with. Contacts help you track who you're paying money to or receiving…
+- [Tags](https://budgetum.app/help/tags): The Tags Screen is where you manage all your tags for organizing and labeling transactions. Tags provide a flexible way to categorize your spending and…
+
+## Settings
+
+- [Settings, backup, and import / export](https://budgetum.app/help/settings): The Settings screen is your central hub for customizing Budgetum to work the way you want. Here you can personalize the app's appearance, manage your…
+- [Date picker, calculator, and other shared controls](https://budgetum.app/help/shared-components): This guide explains the common interface elements that appear throughout Budgetum. Understanding these components will help you navigate the app more…
+
+## About Budgetum
+
+- [Budgetum philosophy](https://budgetum.app/help/philosophy): Budgetum is built around one idea: understanding your money matters more than following rules. You make a plan, record what actually happens, look at the…
+- [How Budgetum started (blog)](https://budgetum.app/blog/two-years-building-budgetum)
+
+## Other
+
+- [Help Center](https://budgetum.app/help): index of all guides and a short description of every screen
+- [Desktop Analytics](https://budgetum.app/analytics): explore a Budgetum export on a computer, privately in the browser
+- [Support](https://budgetum.app/support): contact details, FAQ, and troubleshooting
+- [Privacy Policy](https://budgetum.app/privacy)
+- [App Store](https://apps.apple.com/app/id6737688797)
+- [Google Play](https://play.google.com/store/apps/details?id=com.danruddev.budgetum)
