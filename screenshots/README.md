@@ -7,6 +7,21 @@ Place app screenshots here with the following naming convention:
 {screen_name}_dark.webp   - Dark theme version
 ```
 
+## Regenerating
+
+From the repo root, with the iPhone 17 Pro simulator available:
+
+```
+python3 marketing/scripts/website_screenshots.py            # light + dark capture, then WebP
+python3 marketing/scripts/website_screenshots.py --convert-only   # re-encode existing captures
+```
+
+It runs `integration_test/videos/website_screenshots_test.dart` (store demo data, US/USD) via
+`marketing/scripts/record.py website-screenshots --appearance light|dark` and writes every
+`{name}_{light|dark}.webp` below at 640x1386 (budget, input_calculator, input_datepicker,
+analytics_breakdown, analytics_trends, transactions_list, accounts, contacts, recurring,
+import_preview, statement). `budget_start/middle/end` and `transactions_day` are older captures.
+
 ## Required Screenshots
 
 Based on the current Screenshots.tsx configuration:

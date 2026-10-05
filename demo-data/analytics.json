@@ -65,7 +65,7 @@
       "id": "32000000-0000-4000-8000-000000000001",
       "name": "Chase Checking",
       "description": "Primary cash flow account for payroll and bills",
-      "balance": -14849.19,
+      "balance": 1230.81,
       "goalBalance": null,
       "goalStartBalance": null,
       "position": 0,
@@ -104,7 +104,7 @@
       "id": "32000000-0000-4000-8000-000000000004",
       "name": "Apple Card",
       "description": "Everyday spending card",
-      "balance": -4290.86,
+      "balance": -4003.84,
       "goalBalance": null,
       "goalStartBalance": null,
       "position": 3,
@@ -1329,6 +1329,26 @@
       "includeFiltersOperator": "and",
       "includeMinAmount": null,
       "includeMaxAmount": null,
+      "includeGroups": [
+        {
+          "conditions": [
+            {
+              "field": "tags",
+              "combine": "any",
+              "match": "exactly",
+              "values": [
+                "fixed-cost"
+              ],
+              "missingCount": 0
+            }
+          ]
+        }
+      ],
+      "excludeGroups": [
+        {
+          "conditions": []
+        }
+      ],
       "include": {
         "categories": [],
         "sections": [],
@@ -1361,6 +1381,26 @@
       "includeFiltersOperator": "and",
       "includeMinAmount": null,
       "includeMaxAmount": null,
+      "includeGroups": [
+        {
+          "conditions": [
+            {
+              "field": "sections",
+              "combine": "any",
+              "match": "anyOf",
+              "values": [
+                "Travel"
+              ],
+              "missingCount": 0
+            }
+          ]
+        }
+      ],
+      "excludeGroups": [
+        {
+          "conditions": []
+        }
+      ],
       "include": {
         "categories": [],
         "sections": [
@@ -1393,6 +1433,26 @@
       "includeFiltersOperator": "and",
       "includeMinAmount": null,
       "includeMaxAmount": null,
+      "includeGroups": [
+        {
+          "conditions": [
+            {
+              "field": "tags",
+              "combine": "any",
+              "match": "exactly",
+              "values": [
+                "long-term-goals"
+              ],
+              "missingCount": 0
+            }
+          ]
+        }
+      ],
+      "excludeGroups": [
+        {
+          "conditions": []
+        }
+      ],
       "include": {
         "categories": [],
         "sections": [],
@@ -1410,6 +1470,317 @@
         "sections": [],
         "contacts": [],
         "tags": [],
+        "accounts": [],
+        "descriptions": [],
+        "categoryTypes": [],
+        "contactTypes": []
+      }
+    },
+    {
+      "id": "37000000-0000-4000-8000-000000000004",
+      "name": "Eating out",
+      "position": 3,
+      "startDate": null,
+      "endDate": null,
+      "includeFiltersOperator": "and",
+      "includeMinAmount": null,
+      "includeMaxAmount": null,
+      "includeGroups": [
+        {
+          "conditions": [
+            {
+              "field": "sections",
+              "combine": "any",
+              "match": "anyOf",
+              "values": [
+                "Dining"
+              ],
+              "missingCount": 0
+            }
+          ]
+        }
+      ],
+      "excludeGroups": [
+        {
+          "conditions": [
+            {
+              "field": "categories",
+              "combine": "any",
+              "match": "anyOf",
+              "values": [
+                "☕Coffee"
+              ],
+              "missingCount": 0
+            }
+          ]
+        }
+      ],
+      "include": {
+        "categories": [],
+        "sections": [
+          "Dining"
+        ],
+        "contacts": [],
+        "tags": [],
+        "accounts": [],
+        "descriptions": [],
+        "categoryTypes": [],
+        "contactTypes": []
+      },
+      "exclude": {
+        "categories": [
+          "☕Coffee"
+        ],
+        "sections": [],
+        "contacts": [],
+        "tags": [],
+        "accounts": [],
+        "descriptions": [],
+        "categoryTypes": [],
+        "contactTypes": []
+      }
+    },
+    {
+      "id": "37000000-0000-4000-8000-000000000005",
+      "name": "Side income",
+      "position": 4,
+      "startDate": null,
+      "endDate": null,
+      "includeFiltersOperator": "and",
+      "includeMinAmount": null,
+      "includeMaxAmount": null,
+      "includeGroups": [
+        {
+          "conditions": [
+            {
+              "field": "tags",
+              "combine": "any",
+              "match": "exactly",
+              "values": [
+                "client-work"
+              ],
+              "missingCount": 0
+            }
+          ]
+        },
+        {
+          "conditions": [
+            {
+              "field": "tags",
+              "combine": "any",
+              "match": "exactly",
+              "values": [
+                "passive-income"
+              ],
+              "missingCount": 0
+            },
+            {
+              "field": "contactTypes",
+              "combine": "any",
+              "match": "noneOf",
+              "values": [
+                "investments"
+              ],
+              "missingCount": 0
+            }
+          ]
+        }
+      ],
+      "excludeGroups": [
+        {
+          "conditions": []
+        }
+      ],
+      "include": {
+        "categories": [],
+        "sections": [],
+        "contacts": [],
+        "tags": [
+          "client-work",
+          "passive-income"
+        ],
+        "accounts": [],
+        "descriptions": [],
+        "categoryTypes": [],
+        "contactTypes": [
+          "investments"
+        ]
+      },
+      "exclude": {
+        "categories": [],
+        "sections": [],
+        "contacts": [],
+        "tags": [],
+        "accounts": [],
+        "descriptions": [],
+        "categoryTypes": [],
+        "contactTypes": []
+      }
+    },
+    {
+      "id": "37000000-0000-4000-8000-000000000006",
+      "name": "Big wants",
+      "position": 5,
+      "startDate": null,
+      "endDate": null,
+      "includeFiltersOperator": "and",
+      "includeMinAmount": 250,
+      "includeMaxAmount": null,
+      "includeGroups": [
+        {
+          "conditions": [
+            {
+              "field": "categoryTypes",
+              "combine": "any",
+              "match": "anyOf",
+              "values": [
+                "wants"
+              ],
+              "missingCount": 0
+            }
+          ]
+        }
+      ],
+      "excludeGroups": [
+        {
+          "conditions": []
+        }
+      ],
+      "include": {
+        "categories": [],
+        "sections": [],
+        "contacts": [],
+        "tags": [],
+        "accounts": [],
+        "descriptions": [],
+        "categoryTypes": [
+          "wants"
+        ],
+        "contactTypes": []
+      },
+      "exclude": {
+        "categories": [],
+        "sections": [],
+        "contacts": [],
+        "tags": [],
+        "accounts": [],
+        "descriptions": [],
+        "categoryTypes": [],
+        "contactTypes": []
+      }
+    },
+    {
+      "id": "37000000-0000-4000-8000-000000000007",
+      "name": "Seasonal utility peaks",
+      "position": 6,
+      "startDate": null,
+      "endDate": null,
+      "includeFiltersOperator": "and",
+      "includeMinAmount": null,
+      "includeMaxAmount": null,
+      "includeGroups": [
+        {
+          "conditions": [
+            {
+              "field": "tags",
+              "combine": "any",
+              "match": "endsWith",
+              "values": [
+                "-peak"
+              ],
+              "missingCount": 0
+            }
+          ]
+        }
+      ],
+      "excludeGroups": [
+        {
+          "conditions": []
+        }
+      ],
+      "include": {
+        "categories": [],
+        "sections": [],
+        "contacts": [],
+        "tags": [
+          "-peak"
+        ],
+        "accounts": [],
+        "descriptions": [],
+        "categoryTypes": [],
+        "contactTypes": []
+      },
+      "exclude": {
+        "categories": [],
+        "sections": [],
+        "contacts": [],
+        "tags": [],
+        "accounts": [],
+        "descriptions": [],
+        "categoryTypes": [],
+        "contactTypes": []
+      }
+    },
+    {
+      "id": "37000000-0000-4000-8000-000000000008",
+      "name": "Summer 2025",
+      "position": 7,
+      "startDate": "2025-06-01",
+      "endDate": "2025-08-31",
+      "includeFiltersOperator": "and",
+      "includeMinAmount": null,
+      "includeMaxAmount": null,
+      "includeGroups": [
+        {
+          "conditions": [
+            {
+              "field": "categoryTypes",
+              "combine": "any",
+              "match": "anyOf",
+              "values": [
+                "wants"
+              ],
+              "missingCount": 0
+            }
+          ]
+        }
+      ],
+      "excludeGroups": [
+        {
+          "conditions": [
+            {
+              "field": "tags",
+              "combine": "any",
+              "match": "exactly",
+              "values": [
+                "fixed-cost",
+                "subscription"
+              ],
+              "missingCount": 0
+            }
+          ]
+        }
+      ],
+      "include": {
+        "categories": [],
+        "sections": [],
+        "contacts": [],
+        "tags": [],
+        "accounts": [],
+        "descriptions": [],
+        "categoryTypes": [
+          "wants"
+        ],
+        "contactTypes": []
+      },
+      "exclude": {
+        "categories": [],
+        "sections": [],
+        "contacts": [],
+        "tags": [
+          "fixed-cost",
+          "subscription"
+        ],
         "accounts": [],
         "descriptions": [],
         "categoryTypes": [],
@@ -1600,9 +1971,9 @@
     },
     {
       "id": "38000000-0000-4000-8000-000000000002",
-      "amount": 3360,
+      "amount": 3800,
       "fromAmount": 0,
-      "toAmount": 3360,
+      "toAmount": 3800,
       "type": "income",
       "description": "Payroll direct deposit",
       "section": "Income",
@@ -1636,289 +2007,289 @@
         {
           "transactionId": "20000000-0000-4000-8000-000000000027",
           "date": "2025-01-15",
-          "amount": 3250,
+          "amount": 3700,
           "fromAmount": 0,
-          "toAmount": 3250,
+          "toAmount": 3700,
           "description": "Payroll direct deposit"
         },
         {
           "transactionId": "20000000-0000-4000-8000-000000000028",
           "date": "2025-01-31",
-          "amount": 3250,
+          "amount": 3700,
           "fromAmount": 0,
-          "toAmount": 3250,
+          "toAmount": 3700,
           "description": "Payroll direct deposit"
         },
         {
           "transactionId": "20000000-0000-4000-8000-000000000084",
           "date": "2025-02-15",
-          "amount": 3250,
+          "amount": 3700,
           "fromAmount": 0,
-          "toAmount": 3250,
+          "toAmount": 3700,
           "description": "Payroll direct deposit"
         },
         {
           "transactionId": "20000000-0000-4000-8000-000000000085",
           "date": "2025-02-28",
-          "amount": 3250,
+          "amount": 3700,
           "fromAmount": 0,
-          "toAmount": 3250,
+          "toAmount": 3700,
           "description": "Payroll direct deposit"
         },
         {
           "transactionId": "20000000-0000-4000-8000-000000000141",
           "date": "2025-03-15",
-          "amount": 3250,
+          "amount": 3700,
           "fromAmount": 0,
-          "toAmount": 3250,
+          "toAmount": 3700,
           "description": "Payroll direct deposit"
         },
         {
           "transactionId": "20000000-0000-4000-8000-000000000142",
           "date": "2025-03-31",
-          "amount": 3250,
+          "amount": 3700,
           "fromAmount": 0,
-          "toAmount": 3250,
+          "toAmount": 3700,
           "description": "Payroll direct deposit"
         },
         {
           "transactionId": "20000000-0000-4000-8000-000000000199",
           "date": "2025-04-15",
-          "amount": 3250,
+          "amount": 3700,
           "fromAmount": 0,
-          "toAmount": 3250,
+          "toAmount": 3700,
           "description": "Payroll direct deposit"
         },
         {
           "transactionId": "20000000-0000-4000-8000-000000000200",
           "date": "2025-04-30",
-          "amount": 3250,
+          "amount": 3700,
           "fromAmount": 0,
-          "toAmount": 3250,
+          "toAmount": 3700,
           "description": "Payroll direct deposit"
         },
         {
           "transactionId": "20000000-0000-4000-8000-000000000260",
           "date": "2025-05-15",
-          "amount": 3250,
+          "amount": 3700,
           "fromAmount": 0,
-          "toAmount": 3250,
+          "toAmount": 3700,
           "description": "Payroll direct deposit"
         },
         {
           "transactionId": "20000000-0000-4000-8000-000000000261",
           "date": "2025-05-31",
-          "amount": 3250,
+          "amount": 3700,
           "fromAmount": 0,
-          "toAmount": 3250,
+          "toAmount": 3700,
           "description": "Payroll direct deposit"
         },
         {
           "transactionId": "20000000-0000-4000-8000-000000000316",
           "date": "2025-06-15",
-          "amount": 3250,
+          "amount": 3700,
           "fromAmount": 0,
-          "toAmount": 3250,
+          "toAmount": 3700,
           "description": "Payroll direct deposit"
         },
         {
           "transactionId": "20000000-0000-4000-8000-000000000317",
           "date": "2025-06-30",
-          "amount": 3250,
+          "amount": 3700,
           "fromAmount": 0,
-          "toAmount": 3250,
+          "toAmount": 3700,
           "description": "Payroll direct deposit"
         },
         {
           "transactionId": "20000000-0000-4000-8000-000000000372",
           "date": "2025-07-15",
-          "amount": 3250,
+          "amount": 3700,
           "fromAmount": 0,
-          "toAmount": 3250,
+          "toAmount": 3700,
           "description": "Payroll direct deposit"
         },
         {
           "transactionId": "20000000-0000-4000-8000-000000000373",
           "date": "2025-07-31",
-          "amount": 3250,
+          "amount": 3700,
           "fromAmount": 0,
-          "toAmount": 3250,
+          "toAmount": 3700,
           "description": "Payroll direct deposit"
         },
         {
           "transactionId": "20000000-0000-4000-8000-000000000433",
           "date": "2025-08-15",
-          "amount": 3250,
+          "amount": 3700,
           "fromAmount": 0,
-          "toAmount": 3250,
+          "toAmount": 3700,
           "description": "Payroll direct deposit"
         },
         {
           "transactionId": "20000000-0000-4000-8000-000000000434",
           "date": "2025-08-31",
-          "amount": 3250,
+          "amount": 3700,
           "fromAmount": 0,
-          "toAmount": 3250,
+          "toAmount": 3700,
           "description": "Payroll direct deposit"
         },
         {
           "transactionId": "20000000-0000-4000-8000-000000000487",
           "date": "2025-09-15",
-          "amount": 3250,
+          "amount": 3700,
           "fromAmount": 0,
-          "toAmount": 3250,
+          "toAmount": 3700,
           "description": "Payroll direct deposit"
         },
         {
           "transactionId": "20000000-0000-4000-8000-000000000488",
           "date": "2025-09-30",
-          "amount": 3250,
+          "amount": 3700,
           "fromAmount": 0,
-          "toAmount": 3250,
+          "toAmount": 3700,
           "description": "Payroll direct deposit"
         },
         {
           "transactionId": "20000000-0000-4000-8000-000000000542",
           "date": "2025-10-15",
-          "amount": 3250,
+          "amount": 3700,
           "fromAmount": 0,
-          "toAmount": 3250,
+          "toAmount": 3700,
           "description": "Payroll direct deposit"
         },
         {
           "transactionId": "20000000-0000-4000-8000-000000000543",
           "date": "2025-10-31",
-          "amount": 3250,
+          "amount": 3700,
           "fromAmount": 0,
-          "toAmount": 3250,
+          "toAmount": 3700,
           "description": "Payroll direct deposit"
         },
         {
           "transactionId": "20000000-0000-4000-8000-000000000600",
           "date": "2025-11-15",
-          "amount": 3250,
+          "amount": 3700,
           "fromAmount": 0,
-          "toAmount": 3250,
+          "toAmount": 3700,
           "description": "Payroll direct deposit"
         },
         {
           "transactionId": "20000000-0000-4000-8000-000000000601",
           "date": "2025-11-30",
-          "amount": 3250,
+          "amount": 3700,
           "fromAmount": 0,
-          "toAmount": 3250,
+          "toAmount": 3700,
           "description": "Payroll direct deposit"
         },
         {
           "transactionId": "20000000-0000-4000-8000-000000000658",
           "date": "2025-12-15",
-          "amount": 3250,
+          "amount": 3700,
           "fromAmount": 0,
-          "toAmount": 3250,
+          "toAmount": 3700,
           "description": "Payroll direct deposit"
         },
         {
           "transactionId": "20000000-0000-4000-8000-000000000659",
           "date": "2025-12-31",
-          "amount": 3250,
+          "amount": 3700,
           "fromAmount": 0,
-          "toAmount": 3250,
+          "toAmount": 3700,
           "description": "Payroll direct deposit"
         },
         {
           "transactionId": "20000000-0000-4000-8000-000000000718",
           "date": "2026-01-15",
-          "amount": 3360,
+          "amount": 3800,
           "fromAmount": 0,
-          "toAmount": 3360,
+          "toAmount": 3800,
           "description": "Payroll direct deposit"
         },
         {
           "transactionId": "20000000-0000-4000-8000-000000000719",
           "date": "2026-01-31",
-          "amount": 3360,
+          "amount": 3800,
           "fromAmount": 0,
-          "toAmount": 3360,
+          "toAmount": 3800,
           "description": "Payroll direct deposit"
         },
         {
           "transactionId": "20000000-0000-4000-8000-000000000774",
           "date": "2026-02-15",
-          "amount": 3360,
+          "amount": 3800,
           "fromAmount": 0,
-          "toAmount": 3360,
+          "toAmount": 3800,
           "description": "Payroll direct deposit"
         },
         {
           "transactionId": "20000000-0000-4000-8000-000000000775",
           "date": "2026-02-28",
-          "amount": 3360,
+          "amount": 3800,
           "fromAmount": 0,
-          "toAmount": 3360,
+          "toAmount": 3800,
           "description": "Payroll direct deposit"
         },
         {
           "transactionId": "20000000-0000-4000-8000-000000000831",
           "date": "2026-03-15",
-          "amount": 3360,
+          "amount": 3800,
           "fromAmount": 0,
-          "toAmount": 3360,
+          "toAmount": 3800,
           "description": "Payroll direct deposit"
         },
         {
           "transactionId": "20000000-0000-4000-8000-000000000832",
           "date": "2026-03-31",
-          "amount": 3360,
+          "amount": 3800,
           "fromAmount": 0,
-          "toAmount": 3360,
+          "toAmount": 3800,
           "description": "Payroll direct deposit"
         },
         {
           "transactionId": "20000000-0000-4000-8000-000000000886",
           "date": "2026-04-15",
-          "amount": 3360,
+          "amount": 3800,
           "fromAmount": 0,
-          "toAmount": 3360,
+          "toAmount": 3800,
           "description": "Payroll direct deposit"
         },
         {
           "transactionId": "20000000-0000-4000-8000-000000000887",
           "date": "2026-04-30",
-          "amount": 3360,
+          "amount": 3800,
           "fromAmount": 0,
-          "toAmount": 3360,
+          "toAmount": 3800,
           "description": "Payroll direct deposit"
         },
         {
           "transactionId": "20000000-0000-4000-8000-000000000946",
           "date": "2026-05-15",
-          "amount": 3360,
+          "amount": 3800,
           "fromAmount": 0,
-          "toAmount": 3360,
+          "toAmount": 3800,
           "description": "Payroll direct deposit"
         },
         {
           "transactionId": "20000000-0000-4000-8000-000000000947",
           "date": "2026-05-31",
-          "amount": 3360,
+          "amount": 3800,
           "fromAmount": 0,
-          "toAmount": 3360,
+          "toAmount": 3800,
           "description": "Payroll direct deposit"
         },
         {
           "transactionId": "20000000-0000-4000-8000-000000001001",
           "date": "2026-06-15",
-          "amount": 3360,
+          "amount": 3800,
           "fromAmount": 0,
-          "toAmount": 3360,
+          "toAmount": 3800,
           "description": "Payroll direct deposit"
         },
         {
           "transactionId": "20000000-0000-4000-8000-000000001002",
           "date": "2026-06-30",
-          "amount": 3360,
+          "amount": 3800,
           "fromAmount": 0,
-          "toAmount": 3360,
+          "toAmount": 3800,
           "description": "Payroll direct deposit"
         }
       ]
